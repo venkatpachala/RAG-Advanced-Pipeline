@@ -1,0 +1,4867 @@
+[
+  {
+    "chunk_id": "69bfab6f-d843-4cc9-9ada-f9a762b9e7c1",
+    "text": "Journal of Communications and Information Networks\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "d18b17b1-eb85-470a-8fc4-60a12c1e08fd"
+    ]
+  },
+  {
+    "chunk_id": "d18b17b1-eb85-470a-8fc4-60a12c1e08fd",
+    "text": "Journal of Communications and Information Networks",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "69bfab6f-d843-4cc9-9ada-f9a762b9e7c1",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1cbad1f4-9558-4a60-8e3f-77edcfb07e95",
+    "text": "Research Paper\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "5ad326ae-312e-404a-b24c-de5f84786f41"
+    ]
+  },
+  {
+    "chunk_id": "5ad326ae-312e-404a-b24c-de5f84786f41",
+    "text": "Research Paper",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1cbad1f4-9558-4a60-8e3f-77edcfb07e95",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "32cdd23e-ba98-499f-a262-ea90f474ee69",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems\n**Authors:**\nXuran Liu, Nan Xue, Rui Bao, Yaping Sun, Zhiyong Chen, Meixia Tao, Xiaodong Xu, Shuguang Cui\n**arXiv:** 2508.11287v1 [cs.IT] 15 Aug 2025\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "745a9ea5-25f3-4a42-9590-62eccd3f4961",
+      "1cef8176-4da4-45a2-9a50-bf64c9a0958a",
+      "f2094629-aeb4-4ed5-a5ab-12f66334a5a9"
+    ]
+  },
+  {
+    "chunk_id": "745a9ea5-25f3-4a42-9590-62eccd3f4961",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "32cdd23e-ba98-499f-a262-ea90f474ee69",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1cef8176-4da4-45a2-9a50-bf64c9a0958a",
+    "text": "**Authors:**\nXuran Liu, Nan Xue, Rui Bao, Yaping Sun, Zhiyong Chen, Meixia Tao, Xiaodong Xu, Shuguang Cui\n**arXiv:** 2508.11287v1 [cs.IT] 15 Aug 2025",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "32cdd23e-ba98-499f-a262-ea90f474ee69",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f2094629-aeb4-4ed5-a5ab-12f66334a5a9",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "32cdd23e-ba98-499f-a262-ea90f474ee69",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "501ab1a5-0aa5-42d9-b9e7-1075c3a4e47a",
+    "text": "Abstract\nWhile deploying large language models on edge devices promises low-latency and privacy-preserving AI services, it is hindered by limited device resources. Although pipeline parallelism facilitates distributed inference, existing approaches often ignore the cold-start latency caused by on-demand mode\n**Keywords:** large language models, mobile edge computing, cold start latency, pipeline parallelism\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Abstract"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "3fbd76af-eb05-463b-8ad3-0106dc85f865",
+      "7cd2e4b3-989e-4a30-a34d-dba6b8b52eeb",
+      "9f883eb0-95af-4a63-8d3c-905748cc6ed6",
+      "2c0a777e-771e-49f0-9fe6-ae03f957aaf4"
+    ]
+  },
+  {
+    "chunk_id": "3fbd76af-eb05-463b-8ad3-0106dc85f865",
+    "text": "Abstract",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Abstract"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "501ab1a5-0aa5-42d9-b9e7-1075c3a4e47a",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "7cd2e4b3-989e-4a30-a34d-dba6b8b52eeb",
+    "text": "While deploying large language models on edge devices promises low-latency and privacy-preserving AI services, it is hindered by limited device resources. Although pipeline parallelism facilitates distributed inference, existing approaches often ignore the cold-start latency caused by on-demand model loading. In this paper, we propose a latency-aware scheduling framework that overlaps model loading with computation and communication to minimize total inference latency. Based on device and model parameters, the framework dynamically adjusts layer partitioning and allocation to effectively hide loading time, thereby eliminating as many idle periods as possible. We formulate the problem as a Mixed-Integer Non-Linear Program and design an efficient dynamic programming algorithm to optimize model partitioning and device assignment. Experimental results show that the proposed method significantly reduces cold-start latency compared to baseline strategies.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Abstract"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "501ab1a5-0aa5-42d9-b9e7-1075c3a4e47a",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "9f883eb0-95af-4a63-8d3c-905748cc6ed6",
+    "text": "**Keywords:** large language models, mobile edge computing, cold start latency, pipeline parallelism",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Abstract"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "501ab1a5-0aa5-42d9-b9e7-1075c3a4e47a",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2c0a777e-771e-49f0-9fe6-ae03f957aaf4",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Abstract"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "501ab1a5-0aa5-42d9-b9e7-1075c3a4e47a",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "459edbec-3b47-420a-8ea5-f62608448bd5",
+    "text": "1 INTRODUCTION\nRecent years have witnessed a paradigm shift in artificial intelligence (AI), driven by the advent of Large Language Models (LLMs) and generative diffusion models. These models exhibit unprecedented capabilities, revolutionizing domains from natural language processing to creative content generation\nHowever, realizing this vision poses a fundamental challenge: the massive computational and memory requirements of state-of-the-art models sharply contrast with the limited resources of mobile devices. A single large model can easily exceed the available RAM and processing power of a typical smartph",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "066104c9-3cb0-4bd2-aafc-df7f9ff3b1f7",
+      "b25a7150-bfe5-4cc0-9c04-71b749e7ed5d",
+      "acd958dd-fe36-4421-bf5f-3a943b5c859a"
+    ]
+  },
+  {
+    "chunk_id": "066104c9-3cb0-4bd2-aafc-df7f9ff3b1f7",
+    "text": "1 INTRODUCTION",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "459edbec-3b47-420a-8ea5-f62608448bd5",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b25a7150-bfe5-4cc0-9c04-71b749e7ed5d",
+    "text": "Recent years have witnessed a paradigm shift in artificial intelligence (AI), driven by the advent of Large Language Models (LLMs) and generative diffusion models. These models exhibit unprecedented capabilities, revolutionizing domains from natural language processing to creative content generation. As their influence extends across diverse aspects of digital lives, there is a growing demand to move beyond cloud-centric deployments and embed these powerful AI functionalities directly into personal computing, particularly onto mobile devices such as smartphones. On-device inference holds the promise of a new wave of applications, offering advantages such as real-time responsiveness, enhanced user privacy through local data processing, and highly personalized user experiences.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "459edbec-3b47-420a-8ea5-f62608448bd5",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "acd958dd-fe36-4421-bf5f-3a943b5c859a",
+    "text": "However, realizing this vision poses a fundamental challenge: the massive computational and memory requirements of state-of-the-art models sharply contrast with the limited resources of mobile devices. A single large model can easily exceed the available RAM and processing power of a typical smartphone, rendering local execution impractical. To address this mismatch, distributed inference has emerged as a promising paradigm. The key idea is to partition a monolithic model into smaller segments, or “shards,” and distribute them across a network of collaborating mobile devices. By organizing these shards into a pipeline parallel workflow, the system can process inference requests in an assembly-line fashion, leveraging the aggregate capabilities of multiple devices to overcome individual hardware constraints.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "459edbec-3b47-420a-8ea5-f62608448bd5",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a1acdaf7-fed5-4e46-a9c7-223fb1a27961",
+    "text": "1.1 Related Work\nPipeline Parallelism (PP), a fundamental model parallelism strategy, has been widely adopted for both the training and inference of Deep Neural Networks (DNNs). In cloud-centric server environments, a variety of distributed inference strategies have been developed to optimize performance and resourc\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION",
+        "1.1 Related Work"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "809df83f-3640-4929-85a4-3a74b3e6d80a",
+      "ef2abc7a-33be-43d5-835d-a630c4840481",
+      "2eee4d61-39cc-4aea-a06c-0dea4b40c07a"
+    ]
+  },
+  {
+    "chunk_id": "809df83f-3640-4929-85a4-3a74b3e6d80a",
+    "text": "1.1 Related Work",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION",
+        "1.1 Related Work"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a1acdaf7-fed5-4e46-a9c7-223fb1a27961",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ef2abc7a-33be-43d5-835d-a630c4840481",
+    "text": "Pipeline Parallelism (PP), a fundamental model parallelism strategy, has been widely adopted for both the training and inference of Deep Neural Networks (DNNs). In cloud-centric server environments, a variety of distributed inference strategies have been developed to optimize performance and resource utilization.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION",
+        "1.1 Related Work"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a1acdaf7-fed5-4e46-a9c7-223fb1a27961",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2eee4d61-39cc-4aea-a06c-0dea4b40c07a",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "1 INTRODUCTION",
+        "1.1 Related Work"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a1acdaf7-fed5-4e46-a9c7-223fb1a27961",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "12917429-a03e-4935-bbae-59ad754032aa",
+    "text": "Figures\n- **Figure 1:** Depiction of the collaborative model loading and inference process across mobile devices.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Figures"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "c4e6d329-d499-40e0-9210-000b3e7e6c46",
+      "95f54abc-1e6a-49dd-a17e-5c6af85aae69"
+    ]
+  },
+  {
+    "chunk_id": "c4e6d329-d499-40e0-9210-000b3e7e6c46",
+    "text": "Figures",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Figures"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "12917429-a03e-4935-bbae-59ad754032aa",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "95f54abc-1e6a-49dd-a17e-5c6af85aae69",
+    "text": "- **Figure 1:** Depiction of the collaborative model loading and inference process across mobile devices.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Figures"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "12917429-a03e-4935-bbae-59ad754032aa",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "02a6f2a6-8353-4635-bf49-5a19778bf20b",
+    "text": "Tables\n- (No tables provided in the extracted text)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Tables"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "a5ea181a-8359-4d52-893a-afc37ab213c4",
+      "d005e583-45a3-4636-bfbb-738468d7d1eb"
+    ]
+  },
+  {
+    "chunk_id": "a5ea181a-8359-4d52-893a-afc37ab213c4",
+    "text": "Tables",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Tables"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "02a6f2a6-8353-4635-bf49-5a19778bf20b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d005e583-45a3-4636-bfbb-738468d7d1eb",
+    "text": "- (No tables provided in the extracted text)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Tables"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "02a6f2a6-8353-4635-bf49-5a19778bf20b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b8b08b1a-623b-4036-a9f0-4ebd94bff2f8",
+    "text": "Document Structure\n- Title\n- Authors\n- Abstract\n- Keywords\n- Introduction\n- Related Work\n(Note: The extracted text does not contain any tables or figures beyond the mention of Figure 1. If there are additional figures or tables in the full document, they would need to be extracted separately.)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Document Structure"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "c1a30a42-33e3-4b6a-90c3-a9b439e9b659",
+      "cc42672f-1cfb-4999-80e5-0780654869f8",
+      "5af2ade7-5af1-47a1-82d1-5f8f1a41e224"
+    ]
+  },
+  {
+    "chunk_id": "c1a30a42-33e3-4b6a-90c3-a9b439e9b659",
+    "text": "Document Structure",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Document Structure"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "b8b08b1a-623b-4036-a9f0-4ebd94bff2f8",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "cc42672f-1cfb-4999-80e5-0780654869f8",
+    "text": "- Title\n- Authors\n- Abstract\n- Keywords\n- Introduction\n- Related Work",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Document Structure"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "b8b08b1a-623b-4036-a9f0-4ebd94bff2f8",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5af2ade7-5af1-47a1-82d1-5f8f1a41e224",
+    "text": "(Note: The extracted text does not contain any tables or figures beyond the mention of Figure 1. If there are additional figures or tables in the full document, they would need to be extracted separately.)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        1
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Research Paper",
+        "Document Structure"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "b8b08b1a-623b-4036-a9f0-4ebd94bff2f8",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d05f4ca2-cb3e-42b0-906d-09419434b560",
+    "text": "Journal of Communications and Information Networks\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "9cca8206-562d-4fc4-ae7c-cc463126f2d1"
+    ]
+  },
+  {
+    "chunk_id": "9cca8206-562d-4fc4-ae7c-cc463126f2d1",
+    "text": "Journal of Communications and Information Networks",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "d05f4ca2-cb3e-42b0-906d-09419434b560",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "9ef75991-6709-4b56-ad60-b0e6273efc02",
+    "text": "1. Introduction\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "d2d3fc07-d59a-44e5-8050-d005b77c2e14"
+    ]
+  },
+  {
+    "chunk_id": "d2d3fc07-d59a-44e5-8050-d005b77c2e14",
+    "text": "1. Introduction",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "9ef75991-6709-4b56-ad60-b0e6273efc02",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2f237520-3c7a-4847-9f28-cff9272609bd",
+    "text": "1.1 Background\nThe cold start problem in personal devices, where long idle periods between inference requests are typical, can lead to substantial latency as each task may require loading the model from storage into memory from scratch. This latency directly impacts user experience, which is a crucial challenge th",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.1 Background"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "ed74ae65-599b-4157-bd5d-b9db2d33e427",
+      "866254ab-d884-4f2b-8e83-962b308ea0e5"
+    ]
+  },
+  {
+    "chunk_id": "ed74ae65-599b-4157-bd5d-b9db2d33e427",
+    "text": "1.1 Background",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.1 Background"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "2f237520-3c7a-4847-9f28-cff9272609bd",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "866254ab-d884-4f2b-8e83-962b308ea0e5",
+    "text": "The cold start problem in personal devices, where long idle periods between inference requests are typical, can lead to substantial latency as each task may require loading the model from storage into memory from scratch. This latency directly impacts user experience, which is a crucial challenge that this paper aims to address.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.1 Background"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "2f237520-3c7a-4847-9f28-cff9272609bd",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "779c8ac7-4c45-47bf-b0f9-7a554d306f0f",
+    "text": "1.2 Contributions\nTo tackle the cold-start challenge in wireless distributed collaborative inference, this paper proposes a latency-aware pipeline scheduling algorithm tailored for edge environments. The key idea is to overlap model loading with ongoing computation and communication phases within the pipeline. By str\nThe main contributions of this work are summarized as follows:\n- Systematic identification and analysis of the cold-start latency issue in mobile distributed cooperative inference scenarios, along with a mathematical model of the latency introduced by the cold start of large models.\n- Design and imp",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.2 Contributions"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "d89f6630-c025-4c85-b957-59287c225aee",
+      "af6b68d8-dd79-4297-8b6a-c05bc746efdb",
+      "496af2f8-67ed-4a0c-b2c3-1935075a1b40"
+    ]
+  },
+  {
+    "chunk_id": "d89f6630-c025-4c85-b957-59287c225aee",
+    "text": "1.2 Contributions",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.2 Contributions"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "779c8ac7-4c45-47bf-b0f9-7a554d306f0f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "af6b68d8-dd79-4297-8b6a-c05bc746efdb",
+    "text": "To tackle the cold-start challenge in wireless distributed collaborative inference, this paper proposes a latency-aware pipeline scheduling algorithm tailored for edge environments. The key idea is to overlap model loading with ongoing computation and communication phases within the pipeline. By strategically scheduling the on-demand loading of downstream shards in parallel with the execution of upstream stages, the proposed method effectively hides the loading latency, reduces pipeline stalls, and minimizes end-to-end inference latency.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.2 Contributions"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "779c8ac7-4c45-47bf-b0f9-7a554d306f0f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "496af2f8-67ed-4a0c-b2c3-1935075a1b40",
+    "text": "The main contributions of this work are summarized as follows:\n- Systematic identification and analysis of the cold-start latency issue in mobile distributed cooperative inference scenarios, along with a mathematical model of the latency introduced by the cold start of large models.\n- Design and implementation of a dynamic programming (DP)-based scheduling algorithm that jointly determines optimal layer partitioning and device assignment for both loading and computation, aiming to minimize end-to-end inference latency.\n- Validation of the approach through extensive experiments, demonstrating substantial reductions in user-perceived latency and improved pipeline efficiency compared to conventional strategies that decouple loading from computation.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.2 Contributions"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "779c8ac7-4c45-47bf-b0f9-7a554d306f0f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "079dd0c5-1d17-4431-adcd-b5936097acd7",
+    "text": "1.3 Organization\nThe rest of this paper is organized as follows:\n- **Section II** presents the system model of collaborative edge LLMs inference.\n- **Section III** formulates the optimization problem.\n- **Section IV** proposes the DP algorithm tailored for latency optimization.\n- **Section V** shows experimental res",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.3 Organization"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "b2292740-a446-40d7-9756-3289681da328",
+      "eeff020c-6a2f-48e5-94fc-da1ea6d15203"
+    ]
+  },
+  {
+    "chunk_id": "b2292740-a446-40d7-9756-3289681da328",
+    "text": "1.3 Organization",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.3 Organization"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "079dd0c5-1d17-4431-adcd-b5936097acd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "eeff020c-6a2f-48e5-94fc-da1ea6d15203",
+    "text": "The rest of this paper is organized as follows:\n- **Section II** presents the system model of collaborative edge LLMs inference.\n- **Section III** formulates the optimization problem.\n- **Section IV** proposes the DP algorithm tailored for latency optimization.\n- **Section V** shows experimental results.\n- **Section VI** draws conclusions.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "1. Introduction",
+        "1.3 Organization"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "079dd0c5-1d17-4431-adcd-b5936097acd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "c04ff8ae-519b-4a91-b7fc-44bfc32e405c",
+    "text": "2. System Model\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "db88790f-b674-401e-b0a0-7afad6c61156"
+    ]
+  },
+  {
+    "chunk_id": "db88790f-b674-401e-b0a0-7afad6c61156",
+    "text": "2. System Model",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c04ff8ae-519b-4a91-b7fc-44bfc32e405c",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d46fec67-8e42-4f6b-bb9b-55c30fa75ecb",
+    "text": "2.1 Large Model Details\nWe aim to deploy a large Transformer-based model onto a wireless network illustrated in **Figure 1**. In the model, we focus exclusively on the Transformer Blocks, omitting the embedding and output layers. Let the model consist of L Transformer blocks.\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "2.1 Large Model Details"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "896f542a-3b8b-4f28-b5a1-432944770110",
+      "b26f4a99-31e9-47d0-a099-1270c480aaa3",
+      "8edcab92-afd6-4ca9-83da-5af5d8f7840f"
+    ]
+  },
+  {
+    "chunk_id": "896f542a-3b8b-4f28-b5a1-432944770110",
+    "text": "2.1 Large Model Details",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "2.1 Large Model Details"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "d46fec67-8e42-4f6b-bb9b-55c30fa75ecb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b26f4a99-31e9-47d0-a099-1270c480aaa3",
+    "text": "We aim to deploy a large Transformer-based model onto a wireless network illustrated in **Figure 1**. In the model, we focus exclusively on the Transformer Blocks, omitting the embedding and output layers. Let the model consist of L Transformer blocks.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "2.1 Large Model Details"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "d46fec67-8e42-4f6b-bb9b-55c30fa75ecb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "8edcab92-afd6-4ca9-83da-5af5d8f7840f",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "2.1 Large Model Details"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "d46fec67-8e42-4f6b-bb9b-55c30fa75ecb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "c2b74b71-b508-4165-9d7b-ebb4621861c7",
+    "text": "Figure 1\n**Pipeline-parallel model deployment on edge wireless networks**: The system adopts a star topology, where all devices communicate via a single access point (AP). The model is partitioned into sequential stages and distributed across devices for pipelined execution.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "Figure 1"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "c641c4c0-96b7-4d18-baee-f1680dd6fc47",
+      "3e8f57c4-bbfe-4617-a6a9-51eff5e2d2db",
+      "aae801da-f384-44b3-9cff-66d10b8979a6"
+    ]
+  },
+  {
+    "chunk_id": "c641c4c0-96b7-4d18-baee-f1680dd6fc47",
+    "text": "Figure 1",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "Figure 1"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c2b74b71-b508-4165-9d7b-ebb4621861c7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "3e8f57c4-bbfe-4617-a6a9-51eff5e2d2db",
+    "text": "**Pipeline-parallel model deployment on edge wireless networks**: The system adopts a star topology, where all devices communicate via a single access point (AP). The model is partitioned into sequential stages and distributed across devices for pipelined execution.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "Figure 1"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c2b74b71-b508-4165-9d7b-ebb4621861c7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "aae801da-f384-44b3-9cff-66d10b8979a6",
+    "text": "Figure 1\nVision model failed to describe this figure.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        2
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2. System Model",
+        "Figure 1"
+      ],
+      "element_type": "figure",
+      "chunk_level": "child",
+      "image_path": "extracted_images\\2508.11287v1\\page2_img1.png",
+      "bbox": {
+        "x": 0,
+        "y": 382.594,
+        "width": 396.72,
+        "height": 425.28
+      },
+      "vision_summary": "Vision model failed to describe this figure."
+    },
+    "parent_chunk_id": "c2b74b71-b508-4165-9d7b-ebb4621861c7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5f286d3a-df9a-4090-8e28-4f9e7fcea2ca",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "770ad045-f3ad-4fab-b1ca-9e9cc237df5b"
+    ]
+  },
+  {
+    "chunk_id": "770ad045-f3ad-4fab-b1ca-9e9cc237df5b",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5f286d3a-df9a-4090-8e28-4f9e7fcea2ca",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "c365317a-92b2-42b7-85e4-38a9f49b7d0d",
+    "text": "1. Introduction\nIn the edge deployment scenarios of interest, the number of model layers typically exceeds the number of available devices, i.e., \\( L \\geq K \\). Each layer \\( l \\in L \\) is characterized by a triple \\( \\phi_l = \\{W_l, A_l, D_l\\} \\), where \\( W_l \\) is the computational workload in floating point op\nThe model is a Transformer-based LLM that employs a multi-head attention mechanism with Grouped Query Attention (GQA) and a Swish-Gated Linear Unit (SwiGLU)-based feed-forward network (FFN). Both activations and parameters are represented using the bfloat16 (bf16) format.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "1. Introduction"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "3c9ee461-ec44-4abc-8291-e5cb5aa1633e",
+      "773a52e6-ee82-47ce-9220-2e352591d010",
+      "d33d1c57-ee63-4dcc-a561-f60842a69270"
+    ]
+  },
+  {
+    "chunk_id": "3c9ee461-ec44-4abc-8291-e5cb5aa1633e",
+    "text": "1. Introduction",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "1. Introduction"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c365317a-92b2-42b7-85e4-38a9f49b7d0d",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "773a52e6-ee82-47ce-9220-2e352591d010",
+    "text": "In the edge deployment scenarios of interest, the number of model layers typically exceeds the number of available devices, i.e., \\( L \\geq K \\). Each layer \\( l \\in L \\) is characterized by a triple \\( \\phi_l = \\{W_l, A_l, D_l\\} \\), where \\( W_l \\) is the computational workload in floating point operations (FLOPs), \\( A_l \\) is the size of the activations in megabytes (MB), and \\( D_l \\) is the parameter size in MB.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "1. Introduction"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c365317a-92b2-42b7-85e4-38a9f49b7d0d",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d33d1c57-ee63-4dcc-a561-f60842a69270",
+    "text": "The model is a Transformer-based LLM that employs a multi-head attention mechanism with Grouped Query Attention (GQA) and a Swish-Gated Linear Unit (SwiGLU)-based feed-forward network (FFN). Both activations and parameters are represented using the bfloat16 (bf16) format.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "1. Introduction"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c365317a-92b2-42b7-85e4-38a9f49b7d0d",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2d87c3a5-03b4-44b6-b2a2-4d9ede3a4296",
+    "text": "2. System Resource Modeling\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "86cb189d-98a3-4623-9c4a-acc3b4a93f48"
+    ]
+  },
+  {
+    "chunk_id": "86cb189d-98a3-4623-9c4a-acc3b4a93f48",
+    "text": "2. System Resource Modeling",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "2d87c3a5-03b4-44b6-b2a2-4d9ede3a4296",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "text": "2.1 Computational Resources\nWe focus on low-workload inference scenarios, which are typical in edge deployments. In such settings, the actual utilization of a mobile device is often substantially lower than its theoretical peak performance or the average utilization observed during large-scale training. Depending on factors su\nTo capture this behavior, we model utilization using a saturating exponential function:\n\\[\nU(t) = a(1 - e^{-bt})\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "a7e8259c-387a-4638-9c78-cc4162c28786",
+      "a7104446-ed07-40de-a17c-d205560b7732",
+      "694cff03-3186-4490-8236-95f5ba6cc25a",
+      "4c48b778-1921-435a-b205-a60bf5e6124e",
+      "8022c07c-f0fd-477f-827a-e873d3dbc205",
+      "475174b9-4632-4425-84c6-6b05aeccbb4c",
+      "b9539890-ba0e-4094-a846-066b219bf1b6"
+    ]
+  },
+  {
+    "chunk_id": "a7e8259c-387a-4638-9c78-cc4162c28786",
+    "text": "2.1 Computational Resources",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a7104446-ed07-40de-a17c-d205560b7732",
+    "text": "We focus on low-workload inference scenarios, which are typical in edge deployments. In such settings, the actual utilization of a mobile device is often substantially lower than its theoretical peak performance or the average utilization observed during large-scale training. Depending on factors such as batch size and input sequence length, utilization rates can vary widely, typically ranging from 1% to 40%. As a result, it is important to account for workload size when evaluating the effective computational capability.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "694cff03-3186-4490-8236-95f5ba6cc25a",
+    "text": "To capture this behavior, we model utilization using a saturating exponential function:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "4c48b778-1921-435a-b205-a60bf5e6124e",
+    "text": "\\[\nU(t) = a(1 - e^{-bt})\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "8022c07c-f0fd-477f-827a-e873d3dbc205",
+    "text": "where \\( U(t) \\) denotes the utilization rate as a function of the workload \\( t \\), \\( a \\) represents the maximum achievable utilization, and \\( b \\) controls the growth rate. The parameters \\( a \\) and \\( b \\) are derived from empirical observations in preliminary experiments.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "475174b9-4632-4425-84c6-6b05aeccbb4c",
+    "text": "Let \\( c^* \\) denote the theoretical peak computational capability of device \\( k \\). The effective computational capability, accounting for workload-dependent utilization, is then given by:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b9539890-ba0e-4094-a846-066b219bf1b6",
+    "text": "\\[\nc_k = c^* U(t)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.1 Computational Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f215a34d-c3ac-4713-9932-8054a8b191f3",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "832c4ff8-4c17-40e7-b1a1-b88e4761c698",
+    "text": "2.2 I/O Resources\nDuring the model cold start phase, the primary I/O bottleneck is the disk read speed. As a result, we use the disk read speed as a proxy for the device’s overall I/O performance. Since this metric is generally stable and the underlying hardware-level read process lies outside the scope of our optimi",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.2 I/O Resources"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "618be14c-ec06-48bf-ad70-809570215d79",
+      "0158d668-9f20-4285-95c9-6bab89f14413"
+    ]
+  },
+  {
+    "chunk_id": "618be14c-ec06-48bf-ad70-809570215d79",
+    "text": "2.2 I/O Resources",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.2 I/O Resources"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "832c4ff8-4c17-40e7-b1a1-b88e4761c698",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "0158d668-9f20-4285-95c9-6bab89f14413",
+    "text": "During the model cold start phase, the primary I/O bottleneck is the disk read speed. As a result, we use the disk read speed as a proxy for the device’s overall I/O performance. Since this metric is generally stable and the underlying hardware-level read process lies outside the scope of our optimization, we abstract it using standardized, canonical values.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.2 I/O Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "832c4ff8-4c17-40e7-b1a1-b88e4761c698",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "03d31057-0f80-4a01-8762-70d27ff45383",
+    "text": "2.3 Communication Resources\nLet \\( B_k \\) denote the channel bandwidth allocated to device \\( k \\), and \\( P^u \\) and \\( P^d \\) represent its uplink and downlink transmission power, respectively. Let \\( d_k \\) be the distance from the device to the AP and \\( N_0 \\) be the noise power spectral density. Furthermore, to reflect p",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.3 Communication Resources"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "6d2241d3-d858-41f5-ae7a-e8840f26a8a6",
+      "ebd2dffd-376f-405c-9a86-473ab7e259e5"
+    ]
+  },
+  {
+    "chunk_id": "6d2241d3-d858-41f5-ae7a-e8840f26a8a6",
+    "text": "2.3 Communication Resources",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.3 Communication Resources"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "03d31057-0f80-4a01-8762-70d27ff45383",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ebd2dffd-376f-405c-9a86-473ab7e259e5",
+    "text": "Let \\( B_k \\) denote the channel bandwidth allocated to device \\( k \\), and \\( P^u \\) and \\( P^d \\) represent its uplink and downlink transmission power, respectively. Let \\( d_k \\) be the distance from the device to the AP and \\( N_0 \\) be the noise power spectral density. Furthermore, to reflect practical constraints, an efficiency factor...",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "2. System Resource Modeling",
+        "2.3 Communication Resources"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "03d31057-0f80-4a01-8762-70d27ff45383",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2799428e-c251-4e85-b6c0-7feeb29a77c2",
+    "text": "Tables\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Tables"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "7430f3fe-3399-4450-a496-b8a5bbc883c9",
+      "2ad39cd7-d543-4570-b970-fc275e1a3870"
+    ]
+  },
+  {
+    "chunk_id": "7430f3fe-3399-4450-a496-b8a5bbc883c9",
+    "text": "Tables",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Tables"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "2799428e-c251-4e85-b6c0-7feeb29a77c2",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2ad39cd7-d543-4570-b970-fc275e1a3870",
+    "text": "| Parameter | Description                                        |\n| --------- | -------------------------------------------------- |\n| ( W\\_l )  | Computational workload in FLOPs                    |\n| ( A\\_l )  | Size of activations in MB                          |\n| ( D\\_l )  | Parameter size in MB                               |\n| ( U(t) )  | Utilization rate as a function of workload         |\n| ( c\\_k )  | Effective computational capability of device ( k ) |",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Tables"
+      ],
+      "element_type": "table",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "2799428e-c251-4e85-b6c0-7feeb29a77c2",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "088e82a6-09ae-4a05-ac9b-33dcaa0e5c5e",
+    "text": "Figures\n- **Figure 1**: Diagram illustrating the star topology of communication between devices and the AP.\n- **Figure 2**: Chart showing the relationship between workload and utilization rate.\n(Note: The actual figures and diagrams are not provided in the text but are referenced for context.)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figures"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "c6243445-e8ee-4bd7-8b16-36bff11bd565",
+      "1b32721a-feaa-422f-aba0-6f1ffad26ed5",
+      "1599a764-9751-440e-9f2e-cb1a37b5a226"
+    ]
+  },
+  {
+    "chunk_id": "c6243445-e8ee-4bd7-8b16-36bff11bd565",
+    "text": "Figures",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figures"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "088e82a6-09ae-4a05-ac9b-33dcaa0e5c5e",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1b32721a-feaa-422f-aba0-6f1ffad26ed5",
+    "text": "- **Figure 1**: Diagram illustrating the star topology of communication between devices and the AP.\n- **Figure 2**: Chart showing the relationship between workload and utilization rate.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figures"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "088e82a6-09ae-4a05-ac9b-33dcaa0e5c5e",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1599a764-9751-440e-9f2e-cb1a37b5a226",
+    "text": "(Note: The actual figures and diagrams are not provided in the text but are referenced for context.)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        3
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figures"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "088e82a6-09ae-4a05-ac9b-33dcaa0e5c5e",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "97003877-b1a8-4a40-929b-52edc4a52a5f",
+    "text": "Journal of Communications and Information Networks\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "ec0bc8e9-67ac-4ade-a576-d5f9d856b9de"
+    ]
+  },
+  {
+    "chunk_id": "ec0bc8e9-67ac-4ade-a576-d5f9d856b9de",
+    "text": "Journal of Communications and Information Networks",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "97003877-b1a8-4a40-929b-52edc4a52a5f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "text": "2.3 Deployment Framework\nThis paper adopts a pipeline parallelism strategy to deploy the model across K heterogeneous mobile devices, as depicted in **Fig. 2**. The large model’s L layers are partitioned into N contiguous, non-overlapping segments (hereafter referred to as partitions), where \\(1 \\leq N \\leq K\\). Each partit\nTo formalize the partitioning scheme, we define a triplet \\(\\{k_n, s_n, e_n\\}\\) for each partition \\(n \\in N \\equiv \\{1, 2, \\ldots, N\\}\\). Here, \\(k_n \\in K\\) denotes the index of the device assigned to the n-th partition, while \\(s_n \\in L\\) and \\(e_n \\in L\\) represent the starting and ending layer\nThe allocation scheme must satisfy the following constraints. First, devices assigned to different partitions must be unique:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "04fd142c-85d2-4acd-a4b2-b737db43c8cb",
+      "5e99282b-b418-4e21-bff5-63eb7fb08b1f",
+      "b4f244df-8e28-4994-9f0b-010843b283ab",
+      "a6083da6-930a-4aa7-acd2-2ceaa7428c37",
+      "1536001c-e93b-4170-9891-9451d9c7d432",
+      "f4399582-782e-4743-96cc-c25d37d61803",
+      "b7a10923-7326-46fd-94f1-02b338dc90e0",
+      "e89216a7-ecf7-404c-b6d5-fbf6d1e0d05c",
+      "ff148113-ea52-4c4d-b886-76dabcda8569",
+      "d794ee65-8928-425a-9e6e-b157f5260ae0",
+      "53efe51b-8139-4cdd-8f71-323892d7f28e",
+      "aaa4cc8a-4a6a-4a84-ab51-ca45f6a43143",
+      "fd131ee9-d375-4d96-b333-f4f27124b4e9",
+      "6b1a41f5-ba8d-4aa2-a6ac-c0f925bd227f",
+      "ebbecaf3-32da-465b-acff-6d01fa6986a3",
+      "ea93c55b-2623-4a48-944f-284247f9af41",
+      "14de4b4b-25df-4cbd-96a7-326eb3236189"
+    ]
+  },
+  {
+    "chunk_id": "04fd142c-85d2-4acd-a4b2-b737db43c8cb",
+    "text": "2.3 Deployment Framework",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5e99282b-b418-4e21-bff5-63eb7fb08b1f",
+    "text": "This paper adopts a pipeline parallelism strategy to deploy the model across K heterogeneous mobile devices, as depicted in **Fig. 2**. The large model’s L layers are partitioned into N contiguous, non-overlapping segments (hereafter referred to as partitions), where \\(1 \\leq N \\leq K\\). Each partition is assigned exclusively to a single device for execution.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b4f244df-8e28-4994-9f0b-010843b283ab",
+    "text": "To formalize the partitioning scheme, we define a triplet \\(\\{k_n, s_n, e_n\\}\\) for each partition \\(n \\in N \\equiv \\{1, 2, \\ldots, N\\}\\). Here, \\(k_n \\in K\\) denotes the index of the device assigned to the n-th partition, while \\(s_n \\in L\\) and \\(e_n \\in L\\) represent the starting and ending layer indices of the partition, respectively.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a6083da6-930a-4aa7-acd2-2ceaa7428c37",
+    "text": "The allocation scheme must satisfy the following constraints. First, devices assigned to different partitions must be unique:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1536001c-e93b-4170-9891-9451d9c7d432",
+    "text": "\\[\n\\forall n, n' \\in N, n = n' \\Rightarrow k_n = k_{n'} \\quad (13)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f4399582-782e-4743-96cc-c25d37d61803",
+    "text": "Second, the partitioning must be contiguous and comprehensive, covering all layers of the model:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b7a10923-7326-46fd-94f1-02b338dc90e0",
+    "text": "\\[\ns_1 = 1, \\quad e_N = L \\quad (14)\n\\]\n\\[\n\\forall n \\in N, \\quad s_n \\leq e_n \\quad (15)\n\\]\n\\[\n\\forall n \\in N \\setminus \\{1\\}, \\quad s_n = e_{n-1} + 1 \\quad (16)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "e89216a7-ecf7-404c-b6d5-fbf6d1e0d05c",
+    "text": "Before the inference task begins, device \\(k_n\\) stores the model parameters for its assigned layers (from \\(s_n\\) to \\(e_n\\)) in its local storage. When an inference request arrives, it triggers a cold start process consisting of three main stages: model loading, activation transfer, and forward computation.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ff148113-ea52-4c4d-b886-76dabcda8569",
+    "text": "During pipeline execution, the start time \\(t_{start}\\) for device \\(k_n\\) depends on two factors: the completion of its own model loading and the computation finish time \\(t_{finish}\\) of the preceding device \\(k_{n-1}\\). Due to the limited I/O bandwidth of mobile devices, we consider that model loading and transmission are performed sequentially, that is, a device cannot begin communicating until it has completed loading the model. The model loading start time and the output transmission completion time of device \\(k_n\\) are given by:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d794ee65-8928-425a-9e6e-b157f5260ae0",
+    "text": "\\[\nt_{k_n}^{start} = \\max(t_{k_n}^{load \\, finish}, t_{k_{n-1}}^{finish}) \\quad (17)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "53efe51b-8139-4cdd-8f71-323892d7f28e",
+    "text": "\\[\nt_{finish} = t_{start} + t_{comm} + t_{comp} \\quad (18)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "aaa4cc8a-4a6a-4a84-ab51-ca45f6a43143",
+    "text": "Here, \\(t_{finish}\\) is defined as 0. The terms \\(t_{load}\\), \\(t_{comm}\\), and \\(t_{comp}\\) represent model loading latency, activation transfer latency, and computation latency of device \\(k_n\\), respectively. These latencies are calculated as follows:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "fd131ee9-d375-4d96-b333-f4f27124b4e9",
+    "text": "\\[\nt_{load} = \\frac{\\sum_{l=s_n}^{e_n} P_l}{r_{k_n}} \\quad (19)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "6b1a41f5-ba8d-4aa2-a6ac-c0f925bd227f",
+    "text": "\\[\nt_{comm} = \\frac{A_{s_{n-1}}}{\\min(b_{k_{n-1}}^u, b_{k_n}^d)} \\quad (20)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ebbecaf3-32da-465b-acff-6d01fa6986a3",
+    "text": "\\[\nt_{comp} = \\sum_{l=s_n}^{e_n} W^l \\quad (21)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ea93c55b-2623-4a48-944f-284247f9af41",
+    "text": "Additionally, to account for device memory constraints, we have:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "14de4b4b-25df-4cbd-96a7-326eb3236189",
+    "text": "\\[\nm_{k_n} \\geq \\max \\left( A_l + \\sum_{l=s_n}^{e_n} P_l \\right) \\quad (22)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "2.3 Deployment Framework"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6cf2ce9-bc27-4c10-9968-4954766c5bd7",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5a62dea2-59ab-408f-9073-3675ed2967f4",
+    "text": "3 Problem Formulation\nIn this section, we first highlight the necessity of optimization by analyzing the performance bottlenecks of a baseline deployment strategy. We then formulate a combinatorial optimization problem aimed at minimizing the total cold-start latency:\n\\[\nT = t_{finish} \\quad (23)\n\\]\nTo illustrate the core idea behind the proposed method, we first consider a baseline method in which the model is evenly partitioned into K segments and deployed across K homogeneous devices. As shown in **Fig. 2**, this strategy parallelizes model loading across devices but fails to exploit pipelin",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "3 Problem Formulation"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "a96afbcf-e14b-44dc-9ee1-cab6831e178e",
+      "b104a1f7-79ba-49e5-9b70-483bd807a0ef",
+      "a00afb28-adee-47bf-ad65-7cd82c697144",
+      "d6cf5033-71b3-4616-a7a5-4e821c4ac049",
+      "bd35e8f5-0f31-4747-bc5c-a3ff8005fe10",
+      "71dfdfc8-763a-47f1-a6ba-b914bdd0f7ed"
+    ]
+  },
+  {
+    "chunk_id": "a96afbcf-e14b-44dc-9ee1-cab6831e178e",
+    "text": "3 Problem Formulation",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "3 Problem Formulation"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5a62dea2-59ab-408f-9073-3675ed2967f4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b104a1f7-79ba-49e5-9b70-483bd807a0ef",
+    "text": "In this section, we first highlight the necessity of optimization by analyzing the performance bottlenecks of a baseline deployment strategy. We then formulate a combinatorial optimization problem aimed at minimizing the total cold-start latency:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "3 Problem Formulation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5a62dea2-59ab-408f-9073-3675ed2967f4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a00afb28-adee-47bf-ad65-7cd82c697144",
+    "text": "\\[\nT = t_{finish} \\quad (23)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "3 Problem Formulation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5a62dea2-59ab-408f-9073-3675ed2967f4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d6cf5033-71b3-4616-a7a5-4e821c4ac049",
+    "text": "To illustrate the core idea behind the proposed method, we first consider a baseline method in which the model is evenly partitioned into K segments and deployed across K homogeneous devices. As shown in **Fig. 2**, this strategy parallelizes model loading across devices but fails to exploit pipelining opportunities between model loading and computation. Specifically, each device \\(k_n\\) must wait for its predecessor \\(k_{n-1}\\) to complete both its computation and activation transfer before beginning its own computation. This results in idle time which can be quantified as:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "3 Problem Formulation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5a62dea2-59ab-408f-9073-3675ed2967f4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "bd35e8f5-0f31-4747-bc5c-a3ff8005fe10",
+    "text": "\\[\nt_{wait} = \\max(0, t_{finish} - t_{load}) \\quad (24)\n\\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "3 Problem Formulation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5a62dea2-59ab-408f-9073-3675ed2967f4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "71dfdfc8-763a-47f1-a6ba-b914bdd0f7ed",
+    "text": "To eliminate this bottleneck, the proposed algorithm aims to align the computation completion time of a predecessor.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        4
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "3 Problem Formulation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5a62dea2-59ab-408f-9073-3675ed2967f4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "14b19819-bc70-464d-a06c-eb3009ddeb31",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "49eb3938-f0d5-48de-a1d8-328f14f16866",
+      "d31503b7-ae40-4966-8fa8-9fc2dc193752"
+    ]
+  },
+  {
+    "chunk_id": "49eb3938-f0d5-48de-a1d8-328f14f16866",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "14b19819-bc70-464d-a06c-eb3009ddeb31",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d31503b7-ae40-4966-8fa8-9fc2dc193752",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "14b19819-bc70-464d-a06c-eb3009ddeb31",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "197fac7c-893b-457b-a4cf-348675ee19f9",
+    "text": "Figure 2\n**Gantt charts illustrating different allocation strategies on homogeneous devices, covering the entire cold start process including model loading, communication, and computation (prefill).**\n- There are two kinds of bubbles: obstructive and non-obstructive.\n- The bubble after loading is an inevitable idle time while the bubble after computation can be filled by other requests.\n- The former is what we aim to eliminate.\n- In all strategies, the pipeline proceeds from top to bottom.\n- **Id\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 2"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "e1c8c21a-c41c-42d2-a315-f6144e8b3b08",
+      "bd6d3ac5-62ad-4e93-a7ba-312c712984da",
+      "1ddaef15-7f5a-4fb5-8cbb-eda4347efbc4",
+      "3a876535-badb-4035-a1e0-43b0fcfc2ff6"
+    ]
+  },
+  {
+    "chunk_id": "e1c8c21a-c41c-42d2-a315-f6144e8b3b08",
+    "text": "Figure 2",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 2"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "197fac7c-893b-457b-a4cf-348675ee19f9",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "bd6d3ac5-62ad-4e93-a7ba-312c712984da",
+    "text": "**Gantt charts illustrating different allocation strategies on homogeneous devices, covering the entire cold start process including model loading, communication, and computation (prefill).**",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 2"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "197fac7c-893b-457b-a4cf-348675ee19f9",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1ddaef15-7f5a-4fb5-8cbb-eda4347efbc4",
+    "text": "- There are two kinds of bubbles: obstructive and non-obstructive.\n- The bubble after loading is an inevitable idle time while the bubble after computation can be filled by other requests.\n- The former is what we aim to eliminate.\n- In all strategies, the pipeline proceeds from top to bottom.\n- **Ideal Single Device** refers to assigning all model layers to the most powerful device in the system, assuming no RAM constraints.\n- **Even** denotes a uniform (even) distribution.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 2"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "197fac7c-893b-457b-a4cf-348675ee19f9",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "3a876535-badb-4035-a1e0-43b0fcfc2ff6",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 2"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "197fac7c-893b-457b-a4cf-348675ee19f9",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "c36de2c1-7e9c-4732-806f-5a363cc34a4b",
+    "text": "Optimization Problem (P0)\nThe optimization problem (P0) is a complex Mixed-Integer Non-Linear Program (MINLP). Its complexity arises primarily from two factors:\n1. The presence of integer decision variables, including the number of partitions \\( N \\), the layer boundaries \\( s_n, e_n \\), and the combinatorial device assignments \\( k_n \\).\n2. The nonlinearities introduced by the use of max and min operators in the timing constraints.\nOverall, P0 is an NP-hard problem. Despite its theoretical intractability, we observe that in practical deployment scenarios, the problem size is often moderate, e.g., the number of available devices \\( K \\) and model layers \\( L \\) typically satisfy \\( K \\leq 20, L \\leq 100 \\). More importantly, th",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Optimization Problem (P0)"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "24bbe525-f539-4120-a69b-f0c713df86f0",
+      "fed05fc3-ebd4-4cd0-8446-f2a7dd0cc31f",
+      "37e05cba-c05f-4cbc-88fd-fdbda7dfa4fc",
+      "abe5f071-c3dc-4f81-8fdb-31f4b32d53d9",
+      "2673e063-f34f-4ed8-989a-ab3109837ac4",
+      "69ebde72-a814-431f-9f2a-579cf7b53a40"
+    ]
+  },
+  {
+    "chunk_id": "24bbe525-f539-4120-a69b-f0c713df86f0",
+    "text": "Optimization Problem (P0)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Optimization Problem (P0)"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c36de2c1-7e9c-4732-806f-5a363cc34a4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "fed05fc3-ebd4-4cd0-8446-f2a7dd0cc31f",
+    "text": "The optimization problem (P0) is a complex Mixed-Integer Non-Linear Program (MINLP). Its complexity arises primarily from two factors:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Optimization Problem (P0)"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c36de2c1-7e9c-4732-806f-5a363cc34a4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "37e05cba-c05f-4cbc-88fd-fdbda7dfa4fc",
+    "text": "1. The presence of integer decision variables, including the number of partitions \\( N \\), the layer boundaries \\( s_n, e_n \\), and the combinatorial device assignments \\( k_n \\).\n2. The nonlinearities introduced by the use of max and min operators in the timing constraints.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Optimization Problem (P0)"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c36de2c1-7e9c-4732-806f-5a363cc34a4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "abe5f071-c3dc-4f81-8fdb-31f4b32d53d9",
+    "text": "Overall, P0 is an NP-hard problem. Despite its theoretical intractability, we observe that in practical deployment scenarios, the problem size is often moderate, e.g., the number of available devices \\( K \\) and model layers \\( L \\) typically satisfy \\( K \\leq 20, L \\leq 100 \\). More importantly, the problem exhibits a clear optimal substructure property, meaning that an optimal solution to the full problem can be built from optimal solutions to its subproblems. This property makes the problem well-suited for a Dynamic Programming (DP) approach.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Optimization Problem (P0)"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c36de2c1-7e9c-4732-806f-5a363cc34a4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2673e063-f34f-4ed8-989a-ab3109837ac4",
+    "text": "Accordingly, we design a DP algorithm capable of computing the exact optimal solution within a reasonable runtime, as detailed in the following section.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Optimization Problem (P0)"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c36de2c1-7e9c-4732-806f-5a363cc34a4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "69ebde72-a814-431f-9f2a-579cf7b53a40",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Optimization Problem (P0)"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c36de2c1-7e9c-4732-806f-5a363cc34a4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "962ca953-ada1-43d9-8c55-9423fa79b687",
+    "text": "Proposed DP Algorithm\nIn the previous section, we formulated the problem as a MINLP, which involves jointly determining the model partitioning and computational task assignment. Due to the presence of nonlinear and non-convex operators, the problem cannot be efficiently solved using brute-force methods, which require exh\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "b2691e8a-e9a3-4d89-b5fc-ee8127aa9c6e",
+      "11732cc6-b76a-4797-8714-8d5dde1c6dd2",
+      "2c5f1279-bfc8-4f80-9822-bfc1708168c7"
+    ]
+  },
+  {
+    "chunk_id": "b2691e8a-e9a3-4d89-b5fc-ee8127aa9c6e",
+    "text": "Proposed DP Algorithm",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "962ca953-ada1-43d9-8c55-9423fa79b687",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "11732cc6-b76a-4797-8714-8d5dde1c6dd2",
+    "text": "In the previous section, we formulated the problem as a MINLP, which involves jointly determining the model partitioning and computational task assignment. Due to the presence of nonlinear and non-convex operators, the problem cannot be efficiently solved using brute-force methods, which require exhaustive search with a computational complexity of...",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "962ca953-ada1-43d9-8c55-9423fa79b687",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2c5f1279-bfc8-4f80-9822-bfc1708168c7",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "962ca953-ada1-43d9-8c55-9423fa79b687",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f37f3018-f3c3-40a8-954d-75b341510f1d",
+    "text": "Constraints\n- \\( P0: \\min T \\)\n- Subject to:\n- \\( N = \\{1, 2,..., N\\} \\) (c1)\n- \\( n = n' \\Rightarrow k = k' , \\forall n, n' \\in N \\) (c2)\n- \\( s_1 = 1 \\) (c3)\n- \\( e_N = L \\) (c4)\n- \\( s_n \\leq e_n, \\forall n \\in N \\) (c5)\n- \\( s_n = e_{n-1} + 1, \\forall n \\in N \\setminus \\{1\\} \\) (c6)\n- \\( m_{k_n} \\geq \\max A\nWhere \\( k = (k_1, k_2,..., k_N) \\), \\( s = (s_1, s_2,..., s_N) \\), and \\( e = (e_1, e_2,..., e_N) \\) denote the vectors of the assigned device, starting layer indices, and ending layer indices, respectively.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm",
+        "Constraints"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "81b57c41-117f-4135-b08b-d3e6b7820317",
+      "97daf79a-7553-4ce5-a15e-8694204d7ff4",
+      "3065f1e6-1b43-4cb2-8af7-1f713b3fc16b",
+      "1714ac20-f3f1-45c5-a1cf-e96ec7cc0cf7"
+    ]
+  },
+  {
+    "chunk_id": "81b57c41-117f-4135-b08b-d3e6b7820317",
+    "text": "Constraints",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm",
+        "Constraints"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f37f3018-f3c3-40a8-954d-75b341510f1d",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "97daf79a-7553-4ce5-a15e-8694204d7ff4",
+    "text": "- \\( P0: \\min T \\)\n- Subject to:\n- \\( N = \\{1, 2,..., N\\} \\) (c1)\n- \\( n = n' \\Rightarrow k = k' , \\forall n, n' \\in N \\) (c2)\n- \\( s_1 = 1 \\) (c3)\n- \\( e_N = L \\) (c4)\n- \\( s_n \\leq e_n, \\forall n \\in N \\) (c5)\n- \\( s_n = e_{n-1} + 1, \\forall n \\in N \\setminus \\{1\\} \\) (c6)\n- \\( m_{k_n} \\geq \\max A_l + \\sum P_l, \\forall n \\in N \\) (c7)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm",
+        "Constraints"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f37f3018-f3c3-40a8-954d-75b341510f1d",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "3065f1e6-1b43-4cb2-8af7-1f713b3fc16b",
+    "text": "Where \\( k = (k_1, k_2,..., k_N) \\), \\( s = (s_1, s_2,..., s_N) \\), and \\( e = (e_1, e_2,..., e_N) \\) denote the vectors of the assigned device, starting layer indices, and ending layer indices, respectively.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm",
+        "Constraints"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f37f3018-f3c3-40a8-954d-75b341510f1d",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1714ac20-f3f1-45c5-a1cf-e96ec7cc0cf7",
+    "text": "Figure 2\nVision model failed to describe this figure.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        5
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Proposed DP Algorithm",
+        "Constraints"
+      ],
+      "element_type": "figure",
+      "chunk_level": "child",
+      "image_path": "extracted_images\\2508.11287v1\\page5_img1.png",
+      "bbox": {
+        "x": 0,
+        "y": 564.994,
+        "width": 570,
+        "height": 242.88
+      },
+      "vision_summary": "Vision model failed to describe this figure."
+    },
+    "parent_chunk_id": "f37f3018-f3c3-40a8-954d-75b341510f1d",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "6f057dd7-a9b1-459c-be5a-9ef44d1a1cbc",
+    "text": "Journal of Communications and Information Networks\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "d3d59a50-3e97-4c62-8144-fe90aba84037"
+    ]
+  },
+  {
+    "chunk_id": "d3d59a50-3e97-4c62-8144-fe90aba84037",
+    "text": "Journal of Communications and Information Networks",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "6f057dd7-a9b1-459c-be5a-9ef44d1a1cbc",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f6a9581e-28ce-4e67-b5d6-ce5f101c4c4b",
+    "text": "Algorithm 1 Optimal Pipeline Scheduling\nO((KL)ᴷ ). This level of complexity makes the approach infeasible for practical scenarios. Fortunately, the problem exhibits two key properties that make it well-suited for a DP solution:\n- Optimal Substructure: A globally optimal solution for partitioning and scheduling L layers across K devices necessarily includes optimal solutions to its subproblems, such as scheduling the first j layers (where j &#x3C; L) across a subset of devices S ⊂ K.\n- Overlapping Subproblems: In the recurs",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "Algorithm 1 Optimal Pipeline Scheduling"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "e921949c-3e7f-4a27-b343-87e8341f2017",
+      "1ddeff1e-d0b8-49f5-8cb4-709c50a81e22",
+      "7d54ab71-98cb-4118-bff3-b6bbb078227b"
+    ]
+  },
+  {
+    "chunk_id": "e921949c-3e7f-4a27-b343-87e8341f2017",
+    "text": "Algorithm 1 Optimal Pipeline Scheduling",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "Algorithm 1 Optimal Pipeline Scheduling"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6a9581e-28ce-4e67-b5d6-ce5f101c4c4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1ddeff1e-d0b8-49f5-8cb4-709c50a81e22",
+    "text": "O((KL)ᴷ ). This level of complexity makes the approach infeasible for practical scenarios. Fortunately, the problem exhibits two key properties that make it well-suited for a DP solution:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "Algorithm 1 Optimal Pipeline Scheduling"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6a9581e-28ce-4e67-b5d6-ce5f101c4c4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "7d54ab71-98cb-4118-bff3-b6bbb078227b",
+    "text": "- Optimal Substructure: A globally optimal solution for partitioning and scheduling L layers across K devices necessarily includes optimal solutions to its subproblems, such as scheduling the first j layers (where j &#x3C; L) across a subset of devices S ⊂ K.\n- Overlapping Subproblems: In the recursive construction of the global solution, certain subproblems, e.g., computing the minimum completion time for scheduling the first j layers on a given subset of devices recur multiple times. DP mitigates redundant computations by storing and reusing these intermediate results.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "Algorithm 1 Optimal Pipeline Scheduling"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f6a9581e-28ce-4e67-b5d6-ce5f101c4c4b",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a2c4b6ab-d174-4c77-8d9a-fe12244463bf",
+    "text": "4.1 DP State Definition\nWe begin by defining the following utility functions for time cost and memory usage, which can be precomputed prior to executing the main DP algorithm to enhance efficiency:\nTo formulate the subproblems and define the state transitions in our DP approach, we represent each state as a triplet (S, j, d), where S ⊂ K is the set of devices used so far, j ∈ {1, 2,..., L} is the index of the last layer assigned, and d ∈ S is the device to which the final segment (ending at la\nThe DP state value, denoted as DP(S, j, d), represents the minimum total completion time required to partition and schedule the first j layers (i.e., layers 1 to j) onto the device set S, with the final segment processed by device d.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.1 DP State Definition"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "fef0d198-2208-4efc-a368-7625b1dd7077",
+      "9f4bca43-9435-4457-b2dc-143531602a16",
+      "5f161153-d3f1-4f30-ab67-82ae9a00e1a5",
+      "fa1c1a95-949f-42fb-80a9-bba3d62cf2e8",
+      "b955bc0d-c66e-4a7c-93bc-4f069088792c"
+    ]
+  },
+  {
+    "chunk_id": "fef0d198-2208-4efc-a368-7625b1dd7077",
+    "text": "4.1 DP State Definition",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.1 DP State Definition"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a2c4b6ab-d174-4c77-8d9a-fe12244463bf",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "9f4bca43-9435-4457-b2dc-143531602a16",
+    "text": "We begin by defining the following utility functions for time cost and memory usage, which can be precomputed prior to executing the main DP algorithm to enhance efficiency:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.1 DP State Definition"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a2c4b6ab-d174-4c77-8d9a-fe12244463bf",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5f161153-d3f1-4f30-ab67-82ae9a00e1a5",
+    "text": "| Tload(i, j, d )         | = *∑*&#x6A; Pl *l*ri,        |\n| ----------------------- | ---------------------------- |\n| Tcomp (i, j, d )        | = *∑*&#x6A; Wl *l*i,         |\n| Tcomm (dprev, dcurr, j) | = min (buAj, bdprev dcurr),  |\n| M(i, j)                 | = max Al + *∑*&#x69;≤l≤j Pl. |",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.1 DP State Definition"
+      ],
+      "element_type": "table",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a2c4b6ab-d174-4c77-8d9a-fe12244463bf",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "fa1c1a95-949f-42fb-80a9-bba3d62cf2e8",
+    "text": "To formulate the subproblems and define the state transitions in our DP approach, we represent each state as a triplet (S, j, d), where S ⊂ K is the set of devices used so far, j ∈ {1, 2,..., L} is the index of the last layer assigned, and d ∈ S is the device to which the final segment (ending at layer j) is assigned. In our implementation, the set S is represented by a bitmask, an integer where the k-th (binary) bit is 1 if device d is in the set, and 0 otherwise.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.1 DP State Definition"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a2c4b6ab-d174-4c77-8d9a-fe12244463bf",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b955bc0d-c66e-4a7c-93bc-4f069088792c",
+    "text": "The DP state value, denoted as DP(S, j, d), represents the minimum total completion time required to partition and schedule the first j layers (i.e., layers 1 to j) onto the device set S, with the final segment processed by device d.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.1 DP State Definition"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a2c4b6ab-d174-4c77-8d9a-fe12244463bf",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "e2970136-edc0-4973-bb45-e7c49065134c",
+    "text": "4.2 State Transition Recurrence\nTo compute the value of the DP state DP(S, j, d), we consider all possible predecessor states corresponding to valid partitions of the first j layers. Suppose the final segment assigned to device d begins at layer i + 1, where 1 ≤ i &#x3C; j). This implies that the first i layers (i.e., layer 1 thro",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.2 State Transition Recurrence"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "981184fb-3858-40c5-8dfa-49eea3b482b0",
+      "71fab11a-caa5-4a1b-8103-6ba198353a0e"
+    ]
+  },
+  {
+    "chunk_id": "981184fb-3858-40c5-8dfa-49eea3b482b0",
+    "text": "4.2 State Transition Recurrence",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.2 State Transition Recurrence"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "e2970136-edc0-4973-bb45-e7c49065134c",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "71fab11a-caa5-4a1b-8103-6ba198353a0e",
+    "text": "To compute the value of the DP state DP(S, j, d), we consider all possible predecessor states corresponding to valid partitions of the first j layers. Suppose the final segment assigned to device d begins at layer i + 1, where 1 ≤ i &#x3C; j). This implies that the first i layers (i.e., layer 1 through i) have already been scheduled on the reduced device set S′ = S \\ {d},",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        6
+      ],
+      "section_path": [
+        "4.2 State Transition Recurrence"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "e2970136-edc0-4973-bb45-e7c49065134c",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "01df9fc9-fa88-4ef9-8e16-4325bef7f596",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "21dd992c-83ea-4791-99f5-cffc240ffbe7"
+    ]
+  },
+  {
+    "chunk_id": "21dd992c-83ea-4791-99f5-cffc240ffbe7",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "01df9fc9-fa88-4ef9-8e16-4325bef7f596",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d3b931d2-90ba-4169-b41e-a430f6833c54",
+    "text": "Table 1: Simulation Parameters\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Table 1: Simulation Parameters"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "485d6a54-6454-4b04-b5d6-0d7a231d6078",
+      "abe4b440-6902-4d97-adff-269c19d85c5b",
+      "2b838dc2-673e-45ae-99bb-199dbb77fbbc"
+    ]
+  },
+  {
+    "chunk_id": "485d6a54-6454-4b04-b5d6-0d7a231d6078",
+    "text": "Table 1: Simulation Parameters",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Table 1: Simulation Parameters"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "d3b931d2-90ba-4169-b41e-a430f6833c54",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "abe4b440-6902-4d97-adff-269c19d85c5b",
+    "text": "| Computation Parameters | c∗ (FLOPS) | a   | b       | Load rk (MB/s) | mk (GB) | µ   | Bk (MHz) | Pu (dBm) | Pd (dBm) | N0 (dBm/Hz) | dk (m) | d0 (m) | ζ β₀ (dB) |\n| ---------------------- | ---------- | --- | ------- | -------------- | ------- | --- | -------- | -------- | -------- | ----------- | ------ | ------ | --------- |\n| Device 1               | 165        | 0.4 | 5.1E-04 | 5000           | 20      |     | 20       |          |          |             |        |        | 1         |\n| Device 2               | 70         | 0.7 | 8.7E-04 | 4000           | 10      | 0.5 | 160      | 18       | 25       | -174        | 3      | 1      | 1         |\n| Device 3               | 30         | 0.8 | 1.1E-03 | 3000           | 8       |     | 15       |          |          |             | 5      |        | 7         |\n| Device 4               | 20         | 0.8 | 1.8E-03 | 2000           | 8       |     | 15       |          |          |             | 7      |        |           |",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Table 1: Simulation Parameters"
+      ],
+      "element_type": "table",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "d3b931d2-90ba-4169-b41e-a430f6833c54",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "2b838dc2-673e-45ae-99bb-199dbb77fbbc",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Table 1: Simulation Parameters"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "d3b931d2-90ba-4169-b41e-a430f6833c54",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "dddac6ef-a18d-437a-bf68-f799f6f1e253",
+    "text": "4.3 Base Case\nThe base case of the recurrence corresponds to the scenario where the entire pipeline consists of a single segment, where all layers from 1 to j are assigned to a single device d. In this case, there is no predecessor device, and therefore no inter-device communication. The set of used devices is S \n\\[ DP(1 \\ll (d - 1), j, d) = Tload(1, j, d) + Tcomp(1, j), \\quad \\forall d \\in K, j \\in L, M(1, j) \\leq md. \\]\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "4.3 Base Case"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "c5b7196d-dc4c-4f06-99f2-3a6e19bc7d74",
+      "53030f75-3277-46e7-9364-6a178851586a",
+      "4a21672c-613a-47b6-8b9e-06dcf96b5f2e",
+      "ec886979-1472-446b-9d32-65c932072195"
+    ]
+  },
+  {
+    "chunk_id": "c5b7196d-dc4c-4f06-99f2-3a6e19bc7d74",
+    "text": "4.3 Base Case",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "4.3 Base Case"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "dddac6ef-a18d-437a-bf68-f799f6f1e253",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "53030f75-3277-46e7-9364-6a178851586a",
+    "text": "The base case of the recurrence corresponds to the scenario where the entire pipeline consists of a single segment, where all layers from 1 to j are assigned to a single device d. In this case, there is no predecessor device, and therefore no inter-device communication. The set of used devices is S = {d}. The corresponding base case is defined as:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "4.3 Base Case"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "dddac6ef-a18d-437a-bf68-f799f6f1e253",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "4a21672c-613a-47b6-8b9e-06dcf96b5f2e",
+    "text": "\\[ DP(1 \\ll (d - 1), j, d) = Tload(1, j, d) + Tcomp(1, j), \\quad \\forall d \\in K, j \\in L, M(1, j) \\leq md. \\]",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "4.3 Base Case"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "dddac6ef-a18d-437a-bf68-f799f6f1e253",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ec886979-1472-446b-9d32-65c932072195",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "4.3 Base Case"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "dddac6ef-a18d-437a-bf68-f799f6f1e253",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "602d6035-61cf-4744-8a83-880a1a15869f",
+    "text": "5 NUMERICAL RESULTS\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "8f28dba8-5115-4b8f-97d5-101205956e0d"
+    ]
+  },
+  {
+    "chunk_id": "8f28dba8-5115-4b8f-97d5-101205956e0d",
+    "text": "5 NUMERICAL RESULTS",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "602d6035-61cf-4744-8a83-880a1a15869f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a540af7d-88e1-4d8c-95b9-319f26c64af1",
+    "text": "5.1 Experiment Setting\nTo evaluate the performance of the proposed algorithm, we conduct a series of numerical simulations. The simulation environment is configured as a typical personal Wi-Fi network, consisting of one AP and four heterogeneous computing devices. For model parameters, we adopt the settings of the Qwen3-1",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.1 Experiment Setting"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "f29e4b06-97cf-47f6-bb98-65eb06bb3fb8",
+      "14713074-47a6-454f-b9e6-f79e1e935401"
+    ]
+  },
+  {
+    "chunk_id": "f29e4b06-97cf-47f6-bb98-65eb06bb3fb8",
+    "text": "5.1 Experiment Setting",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.1 Experiment Setting"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a540af7d-88e1-4d8c-95b9-319f26c64af1",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "14713074-47a6-454f-b9e6-f79e1e935401",
+    "text": "To evaluate the performance of the proposed algorithm, we conduct a series of numerical simulations. The simulation environment is configured as a typical personal Wi-Fi network, consisting of one AP and four heterogeneous computing devices. For model parameters, we adopt the settings of the Qwen3-14B model. The detailed simulation configurations, including the computational, I/O characteristics, and communication bandwidths of each device, are summarized in Table 1.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.1 Experiment Setting"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a540af7d-88e1-4d8c-95b9-319f26c64af1",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ddc00290-816b-4beb-b76b-17cd66fc9449",
+    "text": "5.2 Performance Evaluation\nTo comprehensively validate the effectiveness of the proposed algorithm, we compare it against three baseline strategies:\n- **Ideal Single Device**: An idealized reference in which all model layers are deployed on the most powerful device (Device 1), assumed to have unlimited GPU memory.\n- **Even**: A naive strategy that evenly partitions model layers among the four devices, ignoring performance heterogeneity. Allocati\nAs shown in **Figure 3**, the proposed DP algorithm consistently achieves the lowest cold-start latency across all evaluated token lengths (256 to 8192), significantly outperforming all baseline methods. **Figure 3(b)** further indicates that our approach...",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.2 Performance Evaluation"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "f0734930-efc6-4ad6-81de-65093fa2c536",
+      "e0fd783a-e032-4d43-8876-351563e3951a",
+      "d864b548-b71c-4945-977f-790093ea185d",
+      "f649862c-c67a-4e2d-93ff-bdf2e4e88b23",
+      "934068aa-cfa8-450b-9308-3bec3140e0fa"
+    ]
+  },
+  {
+    "chunk_id": "f0734930-efc6-4ad6-81de-65093fa2c536",
+    "text": "5.2 Performance Evaluation",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.2 Performance Evaluation"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "ddc00290-816b-4beb-b76b-17cd66fc9449",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "e0fd783a-e032-4d43-8876-351563e3951a",
+    "text": "To comprehensively validate the effectiveness of the proposed algorithm, we compare it against three baseline strategies:",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.2 Performance Evaluation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "ddc00290-816b-4beb-b76b-17cd66fc9449",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "d864b548-b71c-4945-977f-790093ea185d",
+    "text": "- **Ideal Single Device**: An idealized reference in which all model layers are deployed on the most powerful device (Device 1), assumed to have unlimited GPU memory.\n- **Even**: A naive strategy that evenly partitions model layers among the four devices, ignoring performance heterogeneity. Allocation priority is given to stronger devices.\n- **Heuristic**: A performance-aware strategy that allocates layers based on a metric defined as the harmonic mean of a device’s compute capability and disk read speed. Layers are proportionally distributed according to this metric, again prioritizing stronger devices.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.2 Performance Evaluation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "ddc00290-816b-4beb-b76b-17cd66fc9449",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f649862c-c67a-4e2d-93ff-bdf2e4e88b23",
+    "text": "As shown in **Figure 3**, the proposed DP algorithm consistently achieves the lowest cold-start latency across all evaluated token lengths (256 to 8192), significantly outperforming all baseline methods. **Figure 3(b)** further indicates that our approach...",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.2 Performance Evaluation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "ddc00290-816b-4beb-b76b-17cd66fc9449",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "934068aa-cfa8-450b-9308-3bec3140e0fa",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "5.2 Performance Evaluation"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "ddc00290-816b-4beb-b76b-17cd66fc9449",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1859d06c-3f61-437e-bc45-aea9f003c49f",
+    "text": "Figures and Images\n- **Figure 3**: Performance comparison of the proposed DP algorithm against baseline methods.\n- **Figure 3(b)**: Detailed analysis of cold-start latency across different token lengths.\n(Note: The actual figures are not included in the text provided.)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "Figures and Images"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "b11dbee9-ffcb-4ec5-a933-07df3d777022",
+      "5086d131-a60a-4445-8f3d-9212f003d291",
+      "a4919e35-3b4e-4829-ae4a-7a5955904ae8",
+      "3c889708-67c2-4986-ac83-a5b9a01da6d1"
+    ]
+  },
+  {
+    "chunk_id": "b11dbee9-ffcb-4ec5-a933-07df3d777022",
+    "text": "Figures and Images",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "Figures and Images"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1859d06c-3f61-437e-bc45-aea9f003c49f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5086d131-a60a-4445-8f3d-9212f003d291",
+    "text": "- **Figure 3**: Performance comparison of the proposed DP algorithm against baseline methods.\n- **Figure 3(b)**: Detailed analysis of cold-start latency across different token lengths.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "Figures and Images"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1859d06c-3f61-437e-bc45-aea9f003c49f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a4919e35-3b4e-4829-ae4a-7a5955904ae8",
+    "text": "(Note: The actual figures are not included in the text provided.)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "Figures and Images"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1859d06c-3f61-437e-bc45-aea9f003c49f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "3c889708-67c2-4986-ac83-a5b9a01da6d1",
+    "text": "- **Figure 3**: Performance comparison of the proposed DP algorithm against baseline methods.\n- **Figure 3(b)**: Detailed analysis of cold-start latency across different token lengths.\nNo valid image file available.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        7
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "5 NUMERICAL RESULTS",
+        "Figures and Images"
+      ],
+      "element_type": "figure",
+      "chunk_level": "child",
+      "image_path": null,
+      "bbox": {
+        "x": 56.259,
+        "y": 87.176,
+        "width": 511.8299999999999,
+        "height": 97.278
+      },
+      "vision_summary": "No valid image file available."
+    },
+    "parent_chunk_id": "1859d06c-3f61-437e-bc45-aea9f003c49f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "75ad2f4a-98a1-4a7c-96d1-53282a4acefb",
+    "text": "Journal of Communications and Information Networks\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "f912b5a0-37c4-488b-b3d5-9f25cd124707"
+    ]
+  },
+  {
+    "chunk_id": "f912b5a0-37c4-488b-b3d5-9f25cd124707",
+    "text": "Journal of Communications and Information Networks",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "75ad2f4a-98a1-4a7c-96d1-53282a4acefb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a9588346-8bcb-4e93-860a-858b110612fa",
+    "text": "Figures\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "2850075f-dc61-4061-9fdd-1a23e82bad0b"
+    ]
+  },
+  {
+    "chunk_id": "2850075f-dc61-4061-9fdd-1a23e82bad0b",
+    "text": "Figures",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "a9588346-8bcb-4e93-860a-858b110612fa",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "eb271ace-fe2c-4c1c-9570-b0b3807c2cff",
+    "text": "Figure 3\n**Comparison of four strategies.**\n(a) Cold start delay changes with load;\n(b) Performance improvement percentage of our algorithm compared to baseline strategies.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures",
+        "Figure 3"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "6cc0f74e-71a4-4f41-91ca-8a772499f463",
+      "ed0f3268-d1d9-4f0f-b118-d8f9b76358fa"
+    ]
+  },
+  {
+    "chunk_id": "6cc0f74e-71a4-4f41-91ca-8a772499f463",
+    "text": "Figure 3",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures",
+        "Figure 3"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "eb271ace-fe2c-4c1c-9570-b0b3807c2cff",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ed0f3268-d1d9-4f0f-b118-d8f9b76358fa",
+    "text": "**Comparison of four strategies.**\n(a) Cold start delay changes with load;\n(b) Performance improvement percentage of our algorithm compared to baseline strategies.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures",
+        "Figure 3"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "eb271ace-fe2c-4c1c-9570-b0b3807c2cff",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "12580c54-b75a-46c7-bb92-c4761a06f201",
+    "text": "Figure 4\n**Gantt chart of Even and Heuristic strategies.**\n(a) Even strategy for 256 token length;\n(b) Even strategy for 8196 token length;\n(c) Heuristic strategy for 256 token length;\n(d) Heuristic strategy for 8196 token length.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures",
+        "Figure 4"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "d68f1bbc-e54c-41cc-b6a6-7d65736c367a",
+      "9097acc6-a7a0-4075-aa18-0ad784294b18"
+    ]
+  },
+  {
+    "chunk_id": "d68f1bbc-e54c-41cc-b6a6-7d65736c367a",
+    "text": "Figure 4",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures",
+        "Figure 4"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "12580c54-b75a-46c7-bb92-c4761a06f201",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "9097acc6-a7a0-4075-aa18-0ad784294b18",
+    "text": "**Gantt chart of Even and Heuristic strategies.**\n(a) Even strategy for 256 token length;\n(b) Even strategy for 8196 token length;\n(c) Heuristic strategy for 256 token length;\n(d) Heuristic strategy for 8196 token length.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Figures",
+        "Figure 4"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "12580c54-b75a-46c7-bb92-c4761a06f201",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "91a5f09a-30e4-42c9-ad15-5ebaa5d79f40",
+    "text": "Analysis\nThe method reduces latency by 8% to 50% compared to the baselines. Even against the best-performing baseline at each token length, it delivers an average improvement of 17.43%. The following analysis reveals a key trade-off underlying these results: I/O parallelization versus computational heterogen",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "a5c56b50-d770-409c-84fe-87104307cb2b",
+      "fd53c385-9b1d-4322-a54c-1ca8eb2a2daf"
+    ]
+  },
+  {
+    "chunk_id": "a5c56b50-d770-409c-84fe-87104307cb2b",
+    "text": "Analysis",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "91a5f09a-30e4-42c9-ad15-5ebaa5d79f40",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "fd53c385-9b1d-4322-a54c-1ca8eb2a2daf",
+    "text": "The method reduces latency by 8% to 50% compared to the baselines. Even against the best-performing baseline at each token length, it delivers an average improvement of 17.43%. The following analysis reveals a key trade-off underlying these results: I/O parallelization versus computational heterogeneity.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "91a5f09a-30e4-42c9-ad15-5ebaa5d79f40",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1684d5c3-21bb-45e5-a599-f0bd30f8ac69",
+    "text": "1) Limitations of Baseline Strategies\nIn short-token scenarios (e.g., ≤ 2048 tokens), the Even and Heuristic strategies perform reasonably well by parallelizing model loading during the I/O-intensive phase, as illustrated in Fig. 4(a) and Fig. 4(c). However, as token length increases, computation becomes the dominant bottleneck, reveali",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis",
+        "1) Limitations of Baseline Strategies"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "2ac62fd1-0d4a-4e6d-85a9-b7dd98d3ebdf",
+      "5e5f673e-52ae-4b90-bb01-93926941ef98"
+    ]
+  },
+  {
+    "chunk_id": "2ac62fd1-0d4a-4e6d-85a9-b7dd98d3ebdf",
+    "text": "1) Limitations of Baseline Strategies",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis",
+        "1) Limitations of Baseline Strategies"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1684d5c3-21bb-45e5-a599-f0bd30f8ac69",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5e5f673e-52ae-4b90-bb01-93926941ef98",
+    "text": "In short-token scenarios (e.g., ≤ 2048 tokens), the Even and Heuristic strategies perform reasonably well by parallelizing model loading during the I/O-intensive phase, as illustrated in Fig. 4(a) and Fig. 4(c). However, as token length increases, computation becomes the dominant bottleneck, revealing the limitations of these static allocation strategies as depicted in Fig. 4(b) and Fig. 4(d). Because they fail to consider computational heterogeneity, the weakest device often becomes a pipeline “straggler,” significantly increasing overall latency. In contrast, the Ideal Single Device exhibits the opposite behavior: although it suffers from higher latency in the I/O phase due to lack of parallelism, its strong computational power enables it to outperform the imbalanced Even and Heuristic strategies in compute-intensive phases.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis",
+        "1) Limitations of Baseline Strategies"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1684d5c3-21bb-45e5-a599-f0bd30f8ac69",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "793005a4-c405-4d6b-b47a-92bdecc6dae5",
+    "text": "2) Adaptive Advantage of the Proposed DP\nThe Proposed DP algorithm effectively addresses the trade-off between I/O parallelization and computational heterogeneity.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis",
+        "2) Adaptive Advantage of the Proposed DP"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "2bf10495-9845-4f0e-a30e-0f862366b69a",
+      "cc092dd4-71ff-431a-a2e9-6d3fdcf956fd",
+      "ed353c56-781b-4bfc-babf-c2438cd9c204"
+    ]
+  },
+  {
+    "chunk_id": "2bf10495-9845-4f0e-a30e-0f862366b69a",
+    "text": "2) Adaptive Advantage of the Proposed DP",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis",
+        "2) Adaptive Advantage of the Proposed DP"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "793005a4-c405-4d6b-b47a-92bdecc6dae5",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "cc092dd4-71ff-431a-a2e9-6d3fdcf956fd",
+    "text": "The Proposed DP algorithm effectively addresses the trade-off between I/O parallelization and computational heterogeneity.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis",
+        "2) Adaptive Advantage of the Proposed DP"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "793005a4-c405-4d6b-b47a-92bdecc6dae5",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ed353c56-781b-4bfc-babf-c2438cd9c204",
+    "text": "**Gantt chart of Even and Heuristic strategies.**\n(a) Even strategy for 256 token length;\n(b) Even strategy for 8196 token length;\n(c) Heuristic strategy for 256 token length;\n(d) Heuristic strategy for 8196 token length.\nNo valid image file available.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        8
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "Analysis",
+        "2) Adaptive Advantage of the Proposed DP"
+      ],
+      "element_type": "figure",
+      "chunk_level": "child",
+      "image_path": null,
+      "bbox": {
+        "x": 0,
+        "y": 463.793,
+        "width": 568.826,
+        "height": 344.081
+      },
+      "vision_summary": "No valid image file available."
+    },
+    "parent_chunk_id": "793005a4-c405-4d6b-b47a-92bdecc6dae5",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "5ade5d52-42dd-4d76-bd9c-caf054e147f8",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "b06c69fc-efbe-41c2-9ceb-c6496e667b8c",
+      "64d74959-c5c0-406b-8958-cb42b4141ff8"
+    ]
+  },
+  {
+    "chunk_id": "b06c69fc-efbe-41c2-9ceb-c6496e667b8c",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5ade5d52-42dd-4d76-bd9c-caf054e147f8",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "64d74959-c5c0-406b-8958-cb42b4141ff8",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "5ade5d52-42dd-4d76-bd9c-caf054e147f8",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "9869ae7f-a2ee-4798-b17f-ae24be1f3dbb",
+    "text": "Figure 5\nGantt chart of our proposed DP algorithm.\n- (a) 256 token length;\n- (b) 2048 token length;\n- (c) 8196 token length.\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "48e94d84-c13d-466f-b159-72f31c4c2a1e",
+      "082d1b30-f1c5-4c6f-8825-827ac3a0c4ea",
+      "a9db3856-adda-4776-b50e-9c4658bc3a23"
+    ]
+  },
+  {
+    "chunk_id": "48e94d84-c13d-466f-b159-72f31c4c2a1e",
+    "text": "Figure 5",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "9869ae7f-a2ee-4798-b17f-ae24be1f3dbb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "082d1b30-f1c5-4c6f-8825-827ac3a0c4ea",
+    "text": "Gantt chart of our proposed DP algorithm.\n- (a) 256 token length;\n- (b) 2048 token length;\n- (c) 8196 token length.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "9869ae7f-a2ee-4798-b17f-ae24be1f3dbb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "a9db3856-adda-4776-b50e-9c4658bc3a23",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "9869ae7f-a2ee-4798-b17f-ae24be1f3dbb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "91960b35-50da-450c-b215-cd569842ff57",
+    "text": "Dynamic Layer Deployment\nThe algorithm dynamically optimizes layer deployment based on the input token length, which determines the expected computational workload. Under low-load conditions, the algorithm favors a more balanced layer distribution to maximize I/O parallelism, as shown in Fig. 5(a). Conversely, under high-lo\nIn summary, by accurately modeling and dynamically optimizing computation, communication, and I/O overheads, the proposed DP algorithm effectively adapts to device heterogeneity, enabling it to achieve near-optimal performance across diverse workload conditions.\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5",
+        "Dynamic Layer Deployment"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "970b2a57-bc3e-495e-9197-87239adff67f",
+      "71b0bc36-3ced-48b5-a399-be7c76e47a1e",
+      "f22d1218-6ca0-4e8a-be0d-1291d7bd91cd",
+      "3d3b3d8d-81d7-4b7e-abc4-b747713928a7"
+    ]
+  },
+  {
+    "chunk_id": "970b2a57-bc3e-495e-9197-87239adff67f",
+    "text": "Dynamic Layer Deployment",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5",
+        "Dynamic Layer Deployment"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "91960b35-50da-450c-b215-cd569842ff57",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "71b0bc36-3ced-48b5-a399-be7c76e47a1e",
+    "text": "The algorithm dynamically optimizes layer deployment based on the input token length, which determines the expected computational workload. Under low-load conditions, the algorithm favors a more balanced layer distribution to maximize I/O parallelism, as shown in Fig. 5(a). Conversely, under high-load conditions, it strategically assigns more compute-intensive layers to the most powerful devices, preventing weaker devices from becoming bottlenecks and fully leveraging the system’s heterogeneous computing resources, as illustrated in Fig. 5(c). This shift in allocation strategy with increasing load is clearly visible in Fig. 5: as the load grows, the distribution becomes more skewed, with a larger proportion of layers assigned to stronger devices.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5",
+        "Dynamic Layer Deployment"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "91960b35-50da-450c-b215-cd569842ff57",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f22d1218-6ca0-4e8a-be0d-1291d7bd91cd",
+    "text": "In summary, by accurately modeling and dynamically optimizing computation, communication, and I/O overheads, the proposed DP algorithm effectively adapts to device heterogeneity, enabling it to achieve near-optimal performance across diverse workload conditions.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5",
+        "Dynamic Layer Deployment"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "91960b35-50da-450c-b215-cd569842ff57",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "3d3b3d8d-81d7-4b7e-abc4-b747713928a7",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figure 5",
+        "Dynamic Layer Deployment"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "91960b35-50da-450c-b215-cd569842ff57",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "50cd0c34-0aad-42e6-8e77-6884f1706336",
+    "text": "6 CONCLUSION AND FUTURE WORK\nIn this paper, we tackle the challenge of inference cold-start latency in wireless networks composed of heterogeneous devices. We propose a novel dynamic programming–based layer allocation algorithm to minimize latency. By carefully modeling computation, communication, and I/O overheads, our approac\nLooking forward, a key direction for future work is the seamless integration of our cold-start optimization with strategies tailored for the steady-state, high-throughput inference phase. Designing a dynamic and adaptive transition mechanism between these phases is a critical challenge for achieving\n----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "6 CONCLUSION AND FUTURE WORK"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "7b16b9d9-acc3-4b05-8151-284a659d8df7",
+      "532c9b6b-a882-4ed3-aaaa-a76380764603",
+      "4aeb04d6-2443-49e8-a7cd-21bfd8546077",
+      "23c4d3c2-1565-4751-bc38-d798241acfc4"
+    ]
+  },
+  {
+    "chunk_id": "7b16b9d9-acc3-4b05-8151-284a659d8df7",
+    "text": "6 CONCLUSION AND FUTURE WORK",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "6 CONCLUSION AND FUTURE WORK"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "50cd0c34-0aad-42e6-8e77-6884f1706336",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "532c9b6b-a882-4ed3-aaaa-a76380764603",
+    "text": "In this paper, we tackle the challenge of inference cold-start latency in wireless networks composed of heterogeneous devices. We propose a novel dynamic programming–based layer allocation algorithm to minimize latency. By carefully modeling computation, communication, and I/O overheads, our approach effectively balances these factors to fully leverage the parallel processing capabilities of multiple devices. Experimental results demonstrate that our algorithm significantly outperforms several baseline strategies in reducing end-to-end latency.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "6 CONCLUSION AND FUTURE WORK"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "50cd0c34-0aad-42e6-8e77-6884f1706336",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "4aeb04d6-2443-49e8-a7cd-21bfd8546077",
+    "text": "Looking forward, a key direction for future work is the seamless integration of our cold-start optimization with strategies tailored for the steady-state, high-throughput inference phase. Designing a dynamic and adaptive transition mechanism between these phases is a critical challenge for achieving comprehensive, lifecycle-aware latency minimization. Our future research will focus on developing a unified optimization strategy.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "6 CONCLUSION AND FUTURE WORK"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "50cd0c34-0aad-42e6-8e77-6884f1706336",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "23c4d3c2-1565-4751-bc38-d798241acfc4",
+    "text": "----",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "6 CONCLUSION AND FUTURE WORK"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "50cd0c34-0aad-42e6-8e77-6884f1706336",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "1d1e479c-b3c3-4bdc-a79d-d9b327b02c49",
+    "text": "References\n1. YANG L, ZHANG Z, SONG Y, et al. Diffusion models: A comprehensive survey of methods and applications[J]. ACM computing surveys, 2023, 56(4): 1-39.\n2. LIU Y, HUANG J, LI Y, et al. Generative ai model privacy: a survey[J]. Artificial Intelligence Review, 2024, 58(1): 33.\n3. RODRIGUEZ-CONDE I, CAMPO",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "References"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "2003bb74-fb1f-43ec-8279-0c5a8baa263d",
+      "899f2816-e9ee-4268-82ad-f1ba9a078a73",
+      "cb353397-458d-41b0-910b-282df0f46b49"
+    ]
+  },
+  {
+    "chunk_id": "2003bb74-fb1f-43ec-8279-0c5a8baa263d",
+    "text": "References",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "References"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1d1e479c-b3c3-4bdc-a79d-d9b327b02c49",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "899f2816-e9ee-4268-82ad-f1ba9a078a73",
+    "text": "1. YANG L, ZHANG Z, SONG Y, et al. Diffusion models: A comprehensive survey of methods and applications[J]. ACM computing surveys, 2023, 56(4): 1-39.\n2. LIU Y, HUANG J, LI Y, et al. Generative ai model privacy: a survey[J]. Artificial Intelligence Review, 2024, 58(1): 33.\n3. RODRIGUEZ-CONDE I, CAMPOS C, FDEZ-RIVEROLA F. Horizontally distributed inference of deep neural networks for ai-enabled iot[J]. Sensors, 2023, 23(4): 1911.\n4. LIU S, TAO X, CAO W, et al. Parallelization techniques for large language models: A review from training to inference[C]//International Conference on Wireless Artificial Intelligent Computing Systems and Applications. Springer, 2025: 307-317.\n5. HUANG Y, CHENG Y, BAPNA A, et al. Gpipe: Efficient training of giant neural networks using pipeline parallelism[J]. Advances in neural information processing systems, 2019, 32.\n6. NARAYANAN D, HARLAP A, PHANISHAYEE A, et al. Pipedream: Generalized pipeline parallelism for dnn training[C]//Proceedings of the 27th ACM symposium on operating systems principles. 2019: 1-15.\n7. JEON B, WU M, CAO S, et al. Graphpipe: Improving performance and scalability of dnn training with graph pipeline parallelism[C]//Proceedings of the 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1. 2025: 557-571.\n8. QI P, WAN X, HUANG G, et al. Zero bubble pipeline parallelism[A]. 2023.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "References"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "1d1e479c-b3c3-4bdc-a79d-d9b327b02c49",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "cb353397-458d-41b0-910b-282df0f46b49",
+    "text": "The algorithm dynamically optimizes layer deployment based on the input token length, which determines the expected computational workload. Under low-load conditions, the algorithm favors a more balanced layer distribution to maximize I/O parallelism, as shown in Fig. 5(a). Conversely, under high-load conditions, it strategically assigns more compute-intensive layers to the most powerful devices, preventing weaker devices from becoming bottlenecks and fully leveraging the system’s heterogeneous computing resources, as illustrated in Fig. 5(c). This shift in allocation strategy with increasing load is clearly visible in Fig. 5: as the load grows, the distribution becomes more skewed, with a larger proportion of layers assigned to stronger devices.\nNo valid image file available.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        9
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "References"
+      ],
+      "element_type": "figure",
+      "chunk_level": "child",
+      "image_path": null,
+      "bbox": {
+        "x": 0,
+        "y": 494.698,
+        "width": 568.826,
+        "height": 313.17600000000004
+      },
+      "vision_summary": "No valid image file available."
+    },
+    "parent_chunk_id": "1d1e479c-b3c3-4bdc-a79d-d9b327b02c49",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "e11b9a54-5d06-47b2-9b9c-bdf9d7931b00",
+    "text": "Journal of Communications and Information Networks\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "c51eba48-fd56-4e81-aaf3-b711a7c8e63f"
+    ]
+  },
+  {
+    "chunk_id": "c51eba48-fd56-4e81-aaf3-b711a7c8e63f",
+    "text": "Journal of Communications and Information Networks",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "e11b9a54-5d06-47b2-9b9c-bdf9d7931b00",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "e599003c-f30b-4857-8e9d-66cd548f9a23",
+    "text": "References\n1. FANG J, PAN J, WANG J, et al. Pipefusion: Patch-level pipeline parallelism for diffusion transformers inference [A]. 2024.\n2. HU Y, IMES C, ZHAO X, et al. Pipeedge: Pipeline parallelism for large-scale model inference on heterogeneous edge devices [C]//2022 25th Euromicro Conference on Digital Sy",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "References"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "0a0a6658-4f84-4243-9c88-d7837997e2c9",
+      "ef56cc8f-415f-403f-8cc7-86bec3332234"
+    ]
+  },
+  {
+    "chunk_id": "0a0a6658-4f84-4243-9c88-d7837997e2c9",
+    "text": "References",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "References"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "e599003c-f30b-4857-8e9d-66cd548f9a23",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "ef56cc8f-415f-403f-8cc7-86bec3332234",
+    "text": "1. FANG J, PAN J, WANG J, et al. Pipefusion: Patch-level pipeline parallelism for diffusion transformers inference [A]. 2024.\n2. HU Y, IMES C, ZHAO X, et al. Pipeedge: Pipeline parallelism for large-scale model inference on heterogeneous edge devices [C]//2022 25th Euromicro Conference on Digital System Design (DSD). IEEE, 2022: 298-307.\n3. YOON J, BYEON Y, KIM J, et al. Edgepipe: Tailoring pipeline parallelism with deep neural networks for volatile wireless edge devices [J]. IEEE Internet of Things Journal, 2021, 9(14): 11633-11647.\n4. XIONG Y, LIU W, ZHANG R, et al. Epipe: Pipeline inference framework with high-quality offline parallelism planning for heterogeneous edge devices [C]//Proceedings of the 43rd IEEE/ACM International Conference on Computer-Aided Design. 2024: 1-10.\n5. XUE N, SUN Y, CHEN Z, et al. Wdmoe: Wireless distributed large language models with mixture of experts [C]//GLOBECOM 2024-2024 IEEE Global Communications Conference. IEEE, 2024: 2707-2712.\n6. YAO Z, DONG Z, ZHENG Z, et al. Hawq-v3: Dyadic neural network quantization [C]//International Conference on Machine Learning. PMLR, 2021: 11875-11886.\n7. LIN J, TANG J, TANG H, et al. Awq: Activation-aware weight quantization for on-device llm compression and acceleration [J]. Proceedings of machine learning and systems, 2024, 6: 87-100.\n8. FANG G, MA X, SONG M, et al. Depgraph: Towards any structural pruning [C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023: 16091-16101.\n9. GAN Z, CHEN Y C, LI L, et al. Playing lottery tickets with vision and language [C]//Proceedings of the AAAI Conference on Artificial Intelligence: Vol. 36. 2022: 652-660.\n10. GU Y, DONG L, WEI F, et al. Minillm: Knowledge distillation of large language models [A]. 2023.\n11. SAUER A, LORENZ D, BLATTMANN A, et al. Adversarial diffusion distillation [C]//European Conference on Computer Vision. Springer, 2024: 87-103.\n12. VASWANI A, SHAZEER N, PARMAR N, et al. Attention is all you need [J]. Advances in neural information processing systems, 2017, 30.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "References"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "e599003c-f30b-4857-8e9d-66cd548f9a23",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "7282d9ce-e872-4007-8f3d-30d415faa8e4",
+    "text": "About the Authors\n**Xuran Liu** was born in Anhui Province, China in 2003. He is currently a senior undergraduate student at the Shanghai Jiao Tong University, Shanghai, majoring in Information Engineering. His research interests focus on the efficient inference and deployment of large-scale models at the wireless ed\n**Nan Xue** [corresponding author] received the B.E. degree in Telecommunication Engineering from Xidian University, Xi’an, China, in 2023. He is currently pursuing the Ph.D. degree with the Department of Information and Communication Engineering. His research interests include wireless networks for\n**Rui Bao** received his B.S. degree in Information Engineering from the IEEE Honor Class at Shanghai Jiao Tong University in 2025. He will pursue a Ph.D. in Information and Communication Engineering at SJTU under the supervision of Prof. Zhiyong Chen. His research interests include large language m",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "About the Authors"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "9b777260-1f1e-4165-aa39-76ff9a6a5cd0",
+      "4dbcd757-cbad-4226-ad9d-a668b02cc3b7",
+      "3f606f3f-7e5b-41cb-bbc6-3b511dc8aded",
+      "b9f214b5-f6dc-47cd-a1bc-c2f6915cfa3a"
+    ]
+  },
+  {
+    "chunk_id": "9b777260-1f1e-4165-aa39-76ff9a6a5cd0",
+    "text": "About the Authors",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "About the Authors"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "7282d9ce-e872-4007-8f3d-30d415faa8e4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "4dbcd757-cbad-4226-ad9d-a668b02cc3b7",
+    "text": "**Xuran Liu** was born in Anhui Province, China in 2003. He is currently a senior undergraduate student at the Shanghai Jiao Tong University, Shanghai, majoring in Information Engineering. His research interests focus on the efficient inference and deployment of large-scale models at the wireless edge.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "About the Authors"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "7282d9ce-e872-4007-8f3d-30d415faa8e4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "3f606f3f-7e5b-41cb-bbc6-3b511dc8aded",
+    "text": "**Nan Xue** [corresponding author] received the B.E. degree in Telecommunication Engineering from Xidian University, Xi’an, China, in 2023. He is currently pursuing the Ph.D. degree with the Department of Information and Communication Engineering. His research interests include wireless networks for large language models.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "About the Authors"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "7282d9ce-e872-4007-8f3d-30d415faa8e4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "b9f214b5-f6dc-47cd-a1bc-c2f6915cfa3a",
+    "text": "**Rui Bao** received his B.S. degree in Information Engineering from the IEEE Honor Class at Shanghai Jiao Tong University in 2025. He will pursue a Ph.D. in Information and Communication Engineering at SJTU under the supervision of Prof. Zhiyong Chen. His research interests include large language models, agents system, and wireless communication networks.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        10
+      ],
+      "section_path": [
+        "Journal of Communications and Information Networks",
+        "About the Authors"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "7282d9ce-e872-4007-8f3d-30d415faa8e4",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "94ece26e-2002-4ab5-ba46-e9f919964dc5",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "7acd5c38-e30a-423d-80f8-75950a6db91a"
+    ]
+  },
+  {
+    "chunk_id": "7acd5c38-e30a-423d-80f8-75950a6db91a",
+    "text": "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems"
+      ],
+      "element_type": "section_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "94ece26e-2002-4ab5-ba46-e9f919964dc5",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "c0c5bc95-c788-4b05-abca-1efff5e1f240",
+    "text": "Authors and Affiliations\n",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "85c50b56-9a25-42f9-8c8e-5eae9accf8d5"
+    ]
+  },
+  {
+    "chunk_id": "85c50b56-9a25-42f9-8c8e-5eae9accf8d5",
+    "text": "Authors and Affiliations",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "c0c5bc95-c788-4b05-abca-1efff5e1f240",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "24116c42-088a-43e0-a418-98f298474811",
+    "text": "Yaping Sun\n- **Degrees**: B.E. from Xidian University (2015), Ph.D. from Shanghai Jiao Tong University (2020)\n- **Positions**:\n- Visiting Scholar, University of Washington, USA (2018-2019)\n- Post-Doctoral Research Fellow, Future Network of Intelligent Institute (FNii), Chinese University of Hong Kong (CUHK), S",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Yaping Sun"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "243cffa7-6426-4a12-871b-11b6ce63ebf8",
+      "c0c45145-7891-4a64-93ba-2b5d2eb98a06"
+    ]
+  },
+  {
+    "chunk_id": "243cffa7-6426-4a12-871b-11b6ce63ebf8",
+    "text": "Yaping Sun",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Yaping Sun"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "24116c42-088a-43e0-a418-98f298474811",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "c0c45145-7891-4a64-93ba-2b5d2eb98a06",
+    "text": "- **Degrees**: B.E. from Xidian University (2015), Ph.D. from Shanghai Jiao Tong University (2020)\n- **Positions**:\n- Visiting Scholar, University of Washington, USA (2018-2019)\n- Post-Doctoral Research Fellow, Future Network of Intelligent Institute (FNii), Chinese University of Hong Kong (CUHK), Shenzhen, China (2020-2022)\n- Assistant Researcher, Department of Broadband, Peng Cheng Laboratory, Shenzhen, and FNii-Shenzhen, CUHK, Shenzhen, China\n- **Research Interests**: Mobile 3C networks, semantic communication\n- **Editorial Roles**:\n- IEEE TRANSACTIONS ON WIRELESS COMMUNICATIONS (Associate Editor, Executive Editorial Committee, Steering Committee)\n- Other journals including IEEE TRANSACTIONS ON COMMUNICATIONS, IEEE TRANSACTIONS ON INFORMATION THEORY, PROCEEDINGS OF THE IEEE, IEEE JOURNAL ON SELECTED AREAS IN COMMUNICATIONS\n- **Awards**: 2009 IEEE ComSoc Asia-Pacific Outstanding Young Researcher award",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Yaping Sun"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "24116c42-088a-43e0-a418-98f298474811",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "28a29651-7078-413f-a2ed-e029b70ddf9f",
+    "text": "Zhiyong Chen\n- **Degree**: Ph.D. from Beijing University of Posts and Telecommunications (BUPT), Beijing, China (2011)\n- **Positions**:\n- Professor, Cooperative Medianet Innovation Center, Shanghai Jiao Tong University (SJTU), Shanghai, China\n- Visiting Ph.D. Student, University of Washington, Seattle, USA (2009",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Zhiyong Chen"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "e45e6a5a-499e-4d37-bde7-96f4f249d8e9",
+      "37f0f5fc-5e1f-4838-bc36-532f3f9726f3"
+    ]
+  },
+  {
+    "chunk_id": "e45e6a5a-499e-4d37-bde7-96f4f249d8e9",
+    "text": "Zhiyong Chen",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Zhiyong Chen"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "28a29651-7078-413f-a2ed-e029b70ddf9f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "37f0f5fc-5e1f-4838-bc36-532f3f9726f3",
+    "text": "- **Degree**: Ph.D. from Beijing University of Posts and Telecommunications (BUPT), Beijing, China (2011)\n- **Positions**:\n- Professor, Cooperative Medianet Innovation Center, Shanghai Jiao Tong University (SJTU), Shanghai, China\n- Visiting Ph.D. Student, University of Washington, Seattle, USA (2009-2011)\n- **Research Interests**: Mobile communications-computing-caching (3C) networks, mobile AI systems\n- **Editorial Roles**:\n- TPC Co-Chair, IEEE ICC 2023\n- Symposia Oversight Chair, IEEE ICC 2019\n- **Publications**: Co-authored nine books/chapters, over 130 journal and conference papers\n- **Patents**: Inventor or co-inventor of 73 granted patents\n- **Awards**: IEEE Asia-Pacific Outstanding Paper Award (2019)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Zhiyong Chen"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "28a29651-7078-413f-a2ed-e029b70ddf9f",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "71b912dd-f2fd-4b35-8112-51609d29b5bb",
+    "text": "Xiaodong Xu\n- **Degrees**: B.S. and Master’s from Shandong University (2001, 2004), Ph.D. from BUPT (2007)\n- **Positions**:\n- Professor, BUPT\n- Research Fellow, Department of Broadband Communication, Peng Cheng Laboratory\n- Member, IMT-2030 (6G) Experts Panel\n- **Research Interests**: Semantic communications, i",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Xiaodong Xu"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "4cea7644-f584-457b-8ba5-cc449e0970eb",
+      "26e69a8b-688e-4c27-826c-f39d786d8e64"
+    ]
+  },
+  {
+    "chunk_id": "4cea7644-f584-457b-8ba5-cc449e0970eb",
+    "text": "Xiaodong Xu",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Xiaodong Xu"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "71b912dd-f2fd-4b35-8112-51609d29b5bb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "26e69a8b-688e-4c27-826c-f39d786d8e64",
+    "text": "- **Degrees**: B.S. and Master’s from Shandong University (2001, 2004), Ph.D. from BUPT (2007)\n- **Positions**:\n- Professor, BUPT\n- Research Fellow, Department of Broadband Communication, Peng Cheng Laboratory\n- Member, IMT-2030 (6G) Experts Panel\n- **Research Interests**: Semantic communications, intellicise networks, trial system and network\n- **Publications**: Over 130 journal and conference papers\n- **Awards**: IEEE Asia-Pacific Outstanding Paper Award (2019)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Xiaodong Xu"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "71b912dd-f2fd-4b35-8112-51609d29b5bb",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f3ef068b-61a4-4150-96cd-b5ed1fa69b04",
+    "text": "Meixia Tao\n- **Degrees**: B.S. from Fudan University, Shanghai, China (1999), Ph.D. from Hong Kong University of Science and Technology (2003)\n- **Position**: Distinguished Professor, Department of Electronic Engineering, Shanghai Jiao Tong University, China\n- **Research Interests**: Wireless edge learning, se",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Meixia Tao"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "548f3a1c-4b69-4c13-a7e3-55181b0a72a8",
+      "14cec12b-48b7-448b-8d89-36a0c6ed0959"
+    ]
+  },
+  {
+    "chunk_id": "548f3a1c-4b69-4c13-a7e3-55181b0a72a8",
+    "text": "Meixia Tao",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Meixia Tao"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f3ef068b-61a4-4150-96cd-b5ed1fa69b04",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "14cec12b-48b7-448b-8d89-36a0c6ed0959",
+    "text": "- **Degrees**: B.S. from Fudan University, Shanghai, China (1999), Ph.D. from Hong Kong University of Science and Technology (2003)\n- **Position**: Distinguished Professor, Department of Electronic Engineering, Shanghai Jiao Tong University, China\n- **Research Interests**: Wireless edge learning, semantic communications, integrated communication-computing-sensing, AI-based channel modeling and beamforming\n- **Awards**:\n- 2019 IEEE Marconi Prize Paper Award\n- 2013 IEEE Heinrich Hertz Paper Award\n- IEEE SP Society 2012 and ComSoc 2023 Marconi Best Paper Awards\n- **Recognition**: Thomson Reuters Highly Cited Researcher, listed in the World's Most Influential Scientific Minds by ScienceWatch (2014)",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Authors and Affiliations",
+        "Meixia Tao"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f3ef068b-61a4-4150-96cd-b5ed1fa69b04",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "3f9c59d5-d0ee-4278-8ee9-74ce7137706c",
+    "text": "Document Structure\n- Title\n- Author Information\n- Research Interests\n- Editorial Roles\n- Awards and Recognition",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Document Structure"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "e1cd9ace-3cca-47fb-aab2-894c31bc9fe1",
+      "96fbe651-caec-4b92-b0ef-8231625d81f9"
+    ]
+  },
+  {
+    "chunk_id": "e1cd9ace-3cca-47fb-aab2-894c31bc9fe1",
+    "text": "Document Structure",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Document Structure"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "3f9c59d5-d0ee-4278-8ee9-74ce7137706c",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "96fbe651-caec-4b92-b0ef-8231625d81f9",
+    "text": "- Title\n- Author Information\n- Research Interests\n- Editorial Roles\n- Awards and Recognition",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Document Structure"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "3f9c59d5-d0ee-4278-8ee9-74ce7137706c",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "f309caf7-94ed-4494-897e-e9c8aba37169",
+    "text": "Figures and Tables\n- No figures or tables were provided in the extracted text.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figures and Tables"
+      ],
+      "element_type": "section",
+      "chunk_level": "parent"
+    },
+    "parent_chunk_id": null,
+    "child_chunk_ids": [
+      "d4961177-0f09-4325-87b3-3c825e6ffa09",
+      "9667a95a-3542-4b64-8116-ab93e3f59444"
+    ]
+  },
+  {
+    "chunk_id": "d4961177-0f09-4325-87b3-3c825e6ffa09",
+    "text": "Figures and Tables",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figures and Tables"
+      ],
+      "element_type": "subsection_header",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f309caf7-94ed-4494-897e-e9c8aba37169",
+    "child_chunk_ids": []
+  },
+  {
+    "chunk_id": "9667a95a-3542-4b64-8116-ab93e3f59444",
+    "text": "- No figures or tables were provided in the extracted text.",
+    "metadata": {
+      "source_file": "2508.11287v1.pdf",
+      "page_numbers": [
+        11
+      ],
+      "section_path": [
+        "CSGO: Generalized Optimization for Cold Start in Wireless Collaborative Edge LLM Systems",
+        "Figures and Tables"
+      ],
+      "element_type": "text",
+      "chunk_level": "child"
+    },
+    "parent_chunk_id": "f309caf7-94ed-4494-897e-e9c8aba37169",
+    "child_chunk_ids": []
+  }
+]

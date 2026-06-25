@@ -17,7 +17,7 @@ def test_image_download_and_tables(input_dir: str):
 
     pipeline = IngestionPipeline(
         llama_parse_api_key=api_key,
-        vision_model="qwen2.5-vl:7b",
+        vision_model="llama3.2-vision:latest",
         enable_cache=True
     )
 

@@ -8,6 +8,9 @@ from ingestion.figure_enricher import FigureVisionEnricher
 from ingestion.table_semantic_enricher import TableSemanticEnricher
 from ingestion.cache_manager import IngestionCache
 from models.document_element import DocumentElement
+from ingestion.figure_enricher import FigureVisionEnricher
+from ingestion.image_visualizer import ImageVisionPipeline
+
 
 logger = logging.getLogger(__name__)
 
@@ -62,12 +65,16 @@ class IngestionPipeline:
 
         # 1. Parse + Normalize (with image downloading)
         elements = self.normalizer.parse_and_normalize(file_path)
+        image_vision = ImageVisionPipeline(vision_model="llama3.2-vision:latest")
+        elements = image_vision.enrich_images_and_vision(elements, file_path)
 
         # 2. Enrich figures with vision model (only if images exist)
         elements = self.figure_enricher.enrich_figures(elements)
 
         # 3. Add semantic understanding to tables
         elements = self.table_enricher.enrich_tables(elements)
+        enricher = FigureVisionEnricher(vision_model="llama3.2-vision:latest")
+        elements = enricher.enrich_figures(elements)
 
         # 4. Save to cache
         if self.cache:
@@ -75,6 +82,8 @@ class IngestionPipeline:
 
         logger.info(f"Finished: {Path(file_path).name} → {len(elements)} elements")
         return elements
+    
+    
 
     def process_directory(
         self,
@@ -105,3 +114,5 @@ class IngestionPipeline:
     def clear_cache(self):
         if self.cache:
             self.cache.clear()
+    
+    

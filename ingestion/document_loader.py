@@ -143,7 +143,7 @@ class EnterpriseDocumentLoader:
 if __name__ == "__main__":
     loader = EnterpriseDocumentLoader(
         data_dir="data/research_papers",
-        vision_model="qwen2.5-vl:7b",
+        vision_model="llama3.2-vision:latest",
         use_llama_parse=True
     )
     

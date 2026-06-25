@@ -1,0 +1,72 @@
+[
+  {
+    "figure_index": 1,
+    "page_number": 2,
+    "caption": "Figure 1",
+    "image_path": "extracted_images\\2508.11287v1\\page2_img1.png",
+    "file_exists": true,
+    "vision_summary": "Vision model failed to describe this figure.",
+    "bbox": {
+      "x": 0,
+      "y": 382.594,
+      "width": 396.72,
+      "height": 425.28
+    }
+  },
+  {
+    "figure_index": 2,
+    "page_number": 5,
+    "caption": "Figure 2",
+    "image_path": "extracted_images\\2508.11287v1\\page5_img1.png",
+    "file_exists": true,
+    "vision_summary": "Vision model failed to describe this figure.",
+    "bbox": {
+      "x": 0,
+      "y": 564.994,
+      "width": 570,
+      "height": 242.88
+    }
+  },
+  {
+    "figure_index": 3,
+    "page_number": 7,
+    "caption": "- **Figure 3**: Performance comparison of the proposed DP algorithm against baseline methods.\n- **Figure 3(b)**: Detailed analysis of cold-start latency across different token lengths.",
+    "image_path": null,
+    "file_exists": false,
+    "vision_summary": "No valid image file available.",
+    "bbox": {
+      "x": 56.259,
+      "y": 87.176,
+      "width": 511.8299999999999,
+      "height": 97.278
+    }
+  },
+  {
+    "figure_index": 4,
+    "page_number": 8,
+    "caption": "**Gantt chart of Even and Heuristic strategies.**\n(a) Even strategy for 256 token length;\n(b) Even strategy for 8196 token length;\n(c) Heuristic strategy for 256 token length;\n(d) Heuristic strategy for 8196 token length.",
+    "image_path": null,
+    "file_exists": false,
+    "vision_summary": "No valid image file available.",
+    "bbox": {
+      "x": 0,
+      "y": 463.793,
+      "width": 568.826,
+      "height": 344.081
+    }
+  },
+  {
+    "figure_index": 5,
+    "page_number": 9,
+    "caption": "The algorithm dynamically optimizes layer deployment based on the input token length, which determines the expected computational workload. Under low-load conditions, the algorithm favors a more balanced layer distribution to maximize I/O parallelism, as shown in Fig. 5(a). Conversely, under high-load conditions, it strategically assigns more compute-intensive layers to the most powerful devices, preventing weaker devices from becoming bottlenecks and fully leveraging the system’s heterogeneous computing resources, as illustrated in Fig. 5(c). This shift in allocation strategy with increasing load is clearly visible in Fig. 5: as the load grows, the distribution becomes more skewed, with a larger proportion of layers assigned to stronger devices.",
+    "image_path": null,
+    "file_exists": false,
+    "vision_summary": "No valid image file available.",
+    "bbox": {
+      "x": 0,
+      "y": 494.698,
+      "width": 568.826,
+      "height": 313.17600000000004
+    }
+  }
+]
