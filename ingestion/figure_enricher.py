@@ -1,5 +1,6 @@
 # src/ingestion/figure_enricher.py
 import logging
+from pathlib import Path
 import ollama
 from typing import List
 from models.document_element import DocumentElement
@@ -8,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 class FigureVisionEnricher:
-    def __init__(self, vision_model: str = "qwen2.5-vl:7b"):
+    def __init__(self, vision_model: str = "llama3.2-vision:latest"):
         self.vision_model = vision_model
 
     def enrich_figures(self, elements: List[DocumentElement]) -> List[DocumentElement]:

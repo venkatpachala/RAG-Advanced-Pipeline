@@ -1,0 +1,13 @@
+{
+  "total_elements": 336,
+  "content_type_distribution": {
+    "section_header": 14,
+    "text": 153,
+    "subsection_header": 138,
+    "table": 8,
+    "figure": 23
+  },
+  "figures_with_vision": 23,
+  "tables_with_structure": 8,
+  "average_quality_score": 0.797
+}

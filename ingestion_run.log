@@ -1,0 +1,157 @@
+2026-06-24 17:15:48,788 | INFO | Starting full ingestion on: test_data/research_papers
+2026-06-24 17:15:48,789 | INFO | Output will be saved to: processed_data
+2026-06-24 17:15:48,791 | INFO | IngestionPipeline initialized successfully
+2026-06-24 17:15:48,792 | INFO | Found 6 files to process
+2026-06-24 17:15:48,792 | INFO | 
+================================================================================
+2026-06-24 17:15:48,792 | INFO | Processing: 2508.11287v1.pdf
+2026-06-24 17:15:48,793 | INFO | Processing file: test_data\research_papers\2508.11287v1.pdf
+2026-06-24 17:15:48,793 | INFO | [Step 5] Parsing with relationships & metadata: test_data\research_papers\2508.11287v1.pdf
+2026-06-24 17:15:52,306 | INFO | HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2026-06-24 17:15:53,606 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b3faed43-2b9c-4818-a88b-25452f3266c7 "HTTP/1.1 200 OK"
+2026-06-24 17:15:55,469 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/b3faed43-2b9c-4818-a88b-25452f3266c7/result/json "HTTP/1.1 200 OK"
+2026-06-24 17:15:56,080 | INFO | Table classified as: key_value (Page 3)
+2026-06-24 17:15:56,081 | INFO | Table classified as: key_value (Page 6)
+2026-06-24 17:15:56,081 | INFO | Table classified as: comparison (Page 7)
+2026-06-24 17:15:56,103 | INFO | Saved processed data for 2508.11287v1 -> processed_data\2508.11287v1
+2026-06-24 17:15:56,103 | INFO |   -> Elements: 183
+2026-06-24 17:15:56,103 | INFO |   -> Distribution: {'section_header': 14, 'subsection_header': 53, 'text': 108, 'figure': 5, 'table': 3}
+2026-06-24 17:15:56,103 | INFO | 
+================================================================================
+2026-06-24 17:15:56,103 | INFO | Processing: 2603.23640v2.pdf
+2026-06-24 17:15:56,104 | INFO | Processing file: test_data\research_papers\2603.23640v2.pdf
+2026-06-24 17:15:56,104 | INFO | [Step 5] Parsing with relationships & metadata: test_data\research_papers\2603.23640v2.pdf
+2026-06-24 17:15:58,325 | INFO | HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2026-06-24 17:15:59,639 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:01,932 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:05,406 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:09,700 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:15,746 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:21,578 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:27,839 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:33,873 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:39,564 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55 "HTTP/1.1 200 OK"
+2026-06-24 17:16:40,417 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/1cb45b9b-8266-42b2-a6fd-3305c042af55/result/json "HTTP/1.1 200 OK"
+2026-06-24 17:16:41,114 | INFO | Table classified as: key_value (Page 2)
+2026-06-24 17:16:41,115 | INFO | Table classified as: comparison (Page 3)
+2026-06-24 17:16:41,115 | INFO | Table classified as: comparison (Page 4)
+2026-06-24 17:16:41,116 | INFO | Table classified as: key_value (Page 4)
+2026-06-24 17:16:41,122 | INFO | Table classified as: comparison (Page 5)
+2026-06-24 17:16:41,123 | INFO | Table classified as: comparison (Page 6)
+2026-06-24 17:16:41,125 | INFO | Table classified as: comparison (Page 7)
+2026-06-24 17:16:41,126 | INFO | Table classified as: key_value (Page 8)
+2026-06-24 17:16:41,127 | INFO | Table classified as: comparison (Page 9)
+2026-06-24 17:16:41,129 | INFO | Table classified as: comparison (Page 10)
+2026-06-24 17:16:41,135 | INFO | Table classified as: performance_comparison (Page 11)
+2026-06-24 17:16:41,136 | INFO | Table classified as: comparison (Page 13)
+2026-06-24 17:16:41,136 | INFO | Table classified as: performance_comparison (Page 14)
+2026-06-24 17:16:41,222 | INFO | Saved processed data for 2603.23640v2 -> processed_data\2603.23640v2
+2026-06-24 17:16:41,230 | INFO |   -> Elements: 226
+2026-06-24 17:16:41,231 | INFO |   -> Distribution: {'section_header': 22, 'text': 107, 'subsection_header': 77, 'table': 13, 'figure': 7}
+2026-06-24 17:16:41,232 | INFO | 
+================================================================================
+2026-06-24 17:16:41,232 | INFO | Processing: 2604.13757v1.pdf
+2026-06-24 17:16:41,234 | INFO | Processing file: test_data\research_papers\2604.13757v1.pdf
+2026-06-24 17:16:41,235 | INFO | [Step 5] Parsing with relationships & metadata: test_data\research_papers\2604.13757v1.pdf
+2026-06-24 17:16:44,023 | INFO | HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2026-06-24 17:16:45,274 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:16:47,539 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:16:51,035 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:16:55,383 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:17:01,426 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:17:07,561 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:17:13,697 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:17:20,150 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:17:27,182 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2 "HTTP/1.1 200 OK"
+2026-06-24 17:17:28,785 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/5b83138f-751e-4aa6-9d38-3c27a79538a2/result/json "HTTP/1.1 200 OK"
+2026-06-24 17:17:32,070 | INFO | Table classified as: time_series (Page 3)
+2026-06-24 17:17:32,071 | INFO | Table classified as: performance_comparison (Page 9)
+2026-06-24 17:17:32,071 | INFO | Table classified as: performance_comparison (Page 10)
+2026-06-24 17:17:32,071 | INFO | Table classified as: performance_comparison (Page 10)
+2026-06-24 17:17:32,071 | INFO | Table classified as: comparison (Page 12)
+2026-06-24 17:17:32,071 | INFO | Table classified as: general (Page 13)
+2026-06-24 17:17:32,072 | INFO | Table classified as: general (Page 13)
+2026-06-24 17:17:32,072 | INFO | Table classified as: general (Page 13)
+2026-06-24 17:17:32,072 | INFO | Table classified as: general (Page 13)
+2026-06-24 17:17:32,072 | INFO | Table classified as: performance_comparison (Page 14)
+2026-06-24 17:17:32,094 | INFO | Saved processed data for 2604.13757v1 -> processed_data\2604.13757v1
+2026-06-24 17:17:32,095 | INFO |   -> Elements: 300
+2026-06-24 17:17:32,095 | INFO |   -> Distribution: {'section_header': 16, 'text': 161, 'subsection_header': 106, 'table': 10, 'figure': 7}
+2026-06-24 17:17:32,095 | INFO | 
+================================================================================
+2026-06-24 17:17:32,095 | INFO | Processing: 2605.10380v1.pdf
+2026-06-24 17:17:32,096 | INFO | Processing file: test_data\research_papers\2605.10380v1.pdf
+2026-06-24 17:17:32,096 | INFO | [Step 5] Parsing with relationships & metadata: test_data\research_papers\2605.10380v1.pdf
+2026-06-24 17:17:36,000 | INFO | HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2026-06-24 17:17:37,262 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:17:39,555 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:17:42,888 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:17:47,154 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:17:54,477 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:00,710 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:07,116 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:13,229 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:19,147 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:25,185 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:31,450 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:37,367 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:43,508 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:50,899 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:18:56,847 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:19:03,473 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:19:09,186 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:19:15,147 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:19:21,306 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:19:27,233 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664 "HTTP/1.1 200 OK"
+2026-06-24 17:19:28,457 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fac9decc-eb19-44b8-91d1-023255c58664/result/json "HTTP/1.1 200 OK"
+2026-06-24 17:19:30,061 | INFO | Table classified as: key_value (Page 1)
+2026-06-24 17:19:30,062 | INFO | Table classified as: key_value (Page 2)
+2026-06-24 17:19:30,063 | INFO | Table classified as: performance_comparison (Page 4)
+2026-06-24 17:19:30,064 | INFO | Table classified as: performance_comparison (Page 6)
+2026-06-24 17:19:30,064 | INFO | Table classified as: comparison (Page 7)
+2026-06-24 17:19:30,065 | INFO | Table classified as: performance_comparison (Page 9)
+2026-06-24 17:19:30,066 | INFO | Table classified as: key_value (Page 10)
+2026-06-24 17:19:30,068 | INFO | Table classified as: performance_comparison (Page 11)
+2026-06-24 17:19:30,194 | INFO | Saved processed data for 2605.10380v1 -> processed_data\2605.10380v1
+2026-06-24 17:19:30,195 | INFO |   -> Elements: 336
+2026-06-24 17:19:30,195 | INFO |   -> Distribution: {'section_header': 14, 'text': 153, 'subsection_header': 138, 'table': 8, 'figure': 23}
+2026-06-24 17:19:30,196 | INFO | 
+================================================================================
+2026-06-24 17:19:30,196 | INFO | Processing: 2606.20675v1.pdf
+2026-06-24 17:19:30,198 | INFO | Processing file: test_data\research_papers\2606.20675v1.pdf
+2026-06-24 17:19:30,199 | INFO | [Step 5] Parsing with relationships & metadata: test_data\research_papers\2606.20675v1.pdf
+2026-06-24 17:19:32,858 | INFO | HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2026-06-24 17:19:34,172 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd5298c0-3210-4d81-9aad-6e178832ce85 "HTTP/1.1 200 OK"
+2026-06-24 17:19:35,453 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd5298c0-3210-4d81-9aad-6e178832ce85/result/json "HTTP/1.1 200 OK"
+2026-06-24 17:19:36,484 | INFO | Table classified as: comparison (Page 2)
+2026-06-24 17:19:36,484 | INFO | Table classified as: comparison (Page 3)
+2026-06-24 17:19:36,485 | INFO | Table classified as: comparison (Page 4)
+2026-06-24 17:19:36,520 | INFO | Saved processed data for 2606.20675v1 -> processed_data\2606.20675v1
+2026-06-24 17:19:36,521 | INFO |   -> Elements: 71
+2026-06-24 17:19:36,522 | INFO |   -> Distribution: {'section_header': 13, 'text': 36, 'subsection_header': 14, 'table': 3, 'figure': 5}
+2026-06-24 17:19:36,523 | INFO | 
+================================================================================
+2026-06-24 17:19:36,523 | INFO | Processing: sample.pdf
+2026-06-24 17:19:36,525 | INFO | Processing file: test_data\research_papers\sample.pdf
+2026-06-24 17:19:36,525 | INFO | [Step 5] Parsing with relationships & metadata: test_data\research_papers\sample.pdf
+2026-06-24 17:19:39,316 | INFO | HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2026-06-24 17:19:40,576 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd5298c0-3210-4d81-9aad-6e178832ce85 "HTTP/1.1 200 OK"
+2026-06-24 17:19:41,460 | INFO | HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/cd5298c0-3210-4d81-9aad-6e178832ce85/result/json "HTTP/1.1 200 OK"
+2026-06-24 17:19:41,696 | INFO | Table classified as: comparison (Page 2)
+2026-06-24 17:19:41,714 | INFO | Table classified as: comparison (Page 3)
+2026-06-24 17:19:41,715 | INFO | Table classified as: comparison (Page 4)
+2026-06-24 17:19:41,754 | INFO | Saved processed data for sample -> processed_data\sample
+2026-06-24 17:19:41,758 | INFO |   -> Elements: 71
+2026-06-24 17:19:41,759 | INFO |   -> Distribution: {'section_header': 13, 'text': 36, 'subsection_header': 14, 'table': 3, 'figure': 5}
+2026-06-24 17:19:41,759 | INFO | 
+================================================================================
+2026-06-24 17:19:41,760 | INFO | INGESTION RUN COMPLETE
+2026-06-24 17:19:41,761 | INFO | ================================================================================
+2026-06-24 17:19:41,762 | INFO | Total files processed     : 6
+2026-06-24 17:19:41,762 | INFO | Successful files          : 6
+2026-06-24 17:19:41,762 | INFO | Failed files              : 0
+2026-06-24 17:19:41,763 | INFO | Total elements extracted  : 1187
+2026-06-24 17:19:41,764 | INFO | Total time taken          : 232.97 seconds
+2026-06-24 17:19:41,765 | INFO | Average time per file     : 38.83 seconds
+2026-06-24 17:19:41,765 | INFO | Processed data location   : processed_data
+2026-06-24 17:19:41,766 | INFO | ================================================================================

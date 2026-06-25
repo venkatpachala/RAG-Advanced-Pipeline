@@ -16,7 +16,7 @@ class EnterpriseDocumentLoader:
     def __init__(
         self,
         data_dir: str,
-        vision_model: str = "qwen2.5-vl:7b",
+        vision_model: str = "llama3.2-vision:latest",
         use_llama_parse: bool = True,
         llama_parse_api_key: Optional[str] = None
     ):

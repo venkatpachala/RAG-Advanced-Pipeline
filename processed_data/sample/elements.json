@@ -1,0 +1,2344 @@
+[
+  {
+    "content_type": "section_header",
+    "text": "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 1,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236357",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "**Authors:**\nDimitrios Sekertzis and Giorgos Dimitrakopoulos\nIntegrated Circuits Lab, Electrical and Computer Engineering, Democritus University of Thrace (DUTH), Greece",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    ],
+    "relationships": {
+      "parent_section": "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    },
+    "metadata": {
+      "element_index_on_page": 2,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236396",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "text",
+    "text": "----",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    ],
+    "relationships": {
+      "parent_section": "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    },
+    "metadata": {
+      "element_index_on_page": 3,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236409",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.6
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Abstract",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "Abstract"
+    ],
+    "relationships": {
+      "level": 2,
+      "parent_section": "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    },
+    "metadata": {
+      "element_index_on_page": 4,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236420",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "Spiking Neural Networks (SNNs) offer an energy-efficient paradigm for edge AI, making them attractive for hardware acceleration. However, deploying dense SNNs on FPGAs is constrained by limited on-chip memory for synaptic weight storage. To address this bottleneck, we propose VQ4SNN, a hardware-aware architecture that reduces memory requirements through Vector Quantization (VQ)-based weight sharing. To the best of our knowledge, this is the first application of VQ to pipelined spatial-dataflow SNN accelerators on FPGAs. VQ4SNN replaces conventional weight storage with a two-level memory organization consisting of compact pointers and a shared codebook of quantized weight vectors. The proposed design integrates FPGA-aware memory mapping with analytical VQ parameter selection, enabling efficient deployment on such accelerators while preserving inference accuracy. The experimental results show a reduction of 52–61% in the total number of BRAMs compared to the state-of-the-art uncompressed FPGA SNNs without increasing overall logic utilization.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "Abstract"
+    ],
+    "relationships": {
+      "parent_section": "Abstract"
+    },
+    "metadata": {
+      "element_index_on_page": 5,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236430",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Main Contributions",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "Abstract",
+      "Main Contributions"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "Abstract"
+    },
+    "metadata": {
+      "element_index_on_page": 6,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236440",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "- This is the first FPGA architecture that applies VQ to pipelined spatial-dataflow SNN accelerators, enabling substantial weight compression while preserving inference accuracy.\n- We propose a compressed weight-memory organization and an interleaved neuron-layer execution scheme that removes the multi-port memory requirements typically associated with shared codebook accesses.\n- Comprehensive FPGA evaluation against state-of-the-art spatial-dataflow FPGA SNNs demonstrates a 52–61% reduction in BRAM utilization, without increasing logic utilization and preserving inference accuracy.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "Abstract",
+      "Main Contributions"
+    ],
+    "relationships": {
+      "parent_section": "Main Contributions"
+    },
+    "metadata": {
+      "element_index_on_page": 7,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236450",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "text",
+    "text": "----",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "Abstract",
+      "Main Contributions"
+    ],
+    "relationships": {
+      "parent_section": "Main Contributions"
+    },
+    "metadata": {
+      "element_index_on_page": 8,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236458",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.6
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "I. Introduction",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "I. Introduction"
+    ],
+    "relationships": {
+      "level": 2,
+      "parent_section": "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    },
+    "metadata": {
+      "element_index_on_page": 9,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236468",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "The growing energy demands of conventional Machine Learning (ML) have renewed interest in Spiking Neural Networks (SNNs), whose sparse, event-driven computation offers a more energy-efficient paradigm for AI inference. Realizing these benefits, however, requires specialized hardware, as general-purpose processors largely negate the intrinsic efficiency of SNNs. While programmable neuromorphic multicore processors provide flexibility, they incur significant architectural overhead. FPGAs offer an attractive alternative by enabling model-specific SNN accelerators tailored at design time. The scalability of FPGA-based SNNs is fundamentally constrained by limited on-chip memory resources. In addition to storing neuronal state, accelerators must accommodate large numbers of synaptic weights, ideally keeping the entire network on-chip. When memory capacity is exceeded, weights must be placed in off-chip memory, significantly increasing energy consumption and reducing performance. Consequently, minimizing synaptic-weight storage is a key challenge in efficient FPGA-based SNN inference.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "I. Introduction"
+    ],
+    "relationships": {
+      "parent_section": "I. Introduction"
+    },
+    "metadata": {
+      "element_index_on_page": 10,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236477",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "text",
+    "text": "To address this issue, prior work has adapted compression techniques originally developed for Deep Neural Networks (DNNs), including pruning, quantization, and weight sharing. Pruning removes less significant weights, quantization reduces numerical precision, and weight sharing replaces groups of similar weights with common representative values. Extending the latter concept, Vector Quantization (VQ) compresses multi-dimensional weight blocks using a shared codebook of representative vectors. Although VQ has recently gained attention in DNNs and has been explored for SNNs from an algorithmic in-training perspective, existing studies have not focused on hardware-aware implementations.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "I. Introduction"
+    ],
+    "relationships": {
+      "parent_section": "I. Introduction"
+    },
+    "metadata": {
+      "element_index_on_page": 11,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236486",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "A. LIF Neuron Model",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "I. Introduction",
+      "A. LIF Neuron Model"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "I. Introduction"
+    },
+    "metadata": {
+      "element_index_on_page": 12,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236495",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "To implement continuous-time LIF dynamics on FPGAs, the governing differential equations are discretized into fixed time steps. A time step represents the minimum unit of time during which a neuron evaluates its inputs and updates its membrane potential.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "I. Introduction",
+      "A. LIF Neuron Model"
+    ],
+    "relationships": {
+      "parent_section": "A. LIF Neuron Model"
+    },
+    "metadata": {
+      "element_index_on_page": 13,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236504",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "text",
+    "text": "----",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "I. Introduction",
+      "A. LIF Neuron Model"
+    ],
+    "relationships": {
+      "parent_section": "A. LIF Neuron Model"
+    },
+    "metadata": {
+      "element_index_on_page": 14,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236514",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.6
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "II. SNN Model and FPGA Architecture Template",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "II. SNN Model and FPGA Architecture Template"
+    ],
+    "relationships": {
+      "level": 2,
+      "parent_section": "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks"
+    },
+    "metadata": {
+      "element_index_on_page": 15,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236524",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "SNNs process spatiotemporal data using biologically inspired neuron models. Among the models proposed in the literature, the Leaky Integrate-and-Fire (LIF) neuron is commonly adopted in FPGA accelerators due to its favorable balance between computational complexity and temporal modeling capability. More biologically detailed models, such as Izhikevich and Hodgkin–Huxley, incur higher arithmetic and area overheads because of their reliance on non-linear differential equations.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "II. SNN Model and FPGA Architecture Template"
+    ],
+    "relationships": {
+      "parent_section": "II. SNN Model and FPGA Architecture Template"
+    },
+    "metadata": {
+      "element_index_on_page": 16,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236533",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "text",
+    "text": "Accordingly, we use the LIF model as the baseline neuron implementation throughout this work. Since VQ4SNN targets synaptic-weight storage and access, the proposed compression framework is largely orthogonal to the underlying neuron model and can be integrated into alternative SNN architectures with minimal modification.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "II. SNN Model and FPGA Architecture Template"
+    ],
+    "relationships": {
+      "parent_section": "II. SNN Model and FPGA Architecture Template"
+    },
+    "metadata": {
+      "element_index_on_page": 17,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236542",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "text",
+    "text": "----",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "II. SNN Model and FPGA Architecture Template"
+    ],
+    "relationships": {
+      "parent_section": "II. SNN Model and FPGA Architecture Template"
+    },
+    "metadata": {
+      "element_index_on_page": 18,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236551",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.6
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Tables and Figures",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "II. SNN Model and FPGA Architecture Template",
+      "Tables and Figures"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "II. SNN Model and FPGA Architecture Template"
+    },
+    "metadata": {
+      "element_index_on_page": 19,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236560",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "- **Table 1:** Summary of experimental results comparing BRAM utilization.\n- **Figure 1:** Architecture diagram of the VQ4SNN implementation.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "II. SNN Model and FPGA Architecture Template",
+      "Tables and Figures"
+    ],
+    "relationships": {
+      "parent_section": "Tables and Figures"
+    },
+    "metadata": {
+      "element_index_on_page": 20,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236569",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "text",
+    "text": "(Note: The actual tables and figures are not provided in the text and would need to be created based on the content of the paper.)",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 1,
+    "section_path": [
+      "VQ4SNN: Vector Quantization for Memory-Efficient FPGA Spiking Neural Networks",
+      "II. SNN Model and FPGA Architecture Template",
+      "Tables and Figures"
+    ],
+    "relationships": {
+      "parent_section": "Tables and Figures"
+    },
+    "metadata": {
+      "element_index_on_page": 21,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 1,
+      "extraction_timestamp": "2026-06-24T12:13:43.236577",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "section_header",
+    "text": "Document Structure",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Document Structure"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 1,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236594",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "section_header",
+    "text": "High Accuracy Weights 2D Vector",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "High Accuracy Weights 2D Vector"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 2,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236611",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "section_header",
+    "text": "1. Uniform Quantization",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "1. Uniform Quantization"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 3,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236626",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "table",
+    "text": "|   | 1.730 | 563   | 200  | 0.86    | 1    | 2 | -4.10 | 0    |   |   |\n| - | ----- | ----- | ---- | ------- | ---- | - | ----- | ---- | - | - |\n|   | 1.31  | -4.1  | 0.72 | -1.27   | 1    | 0 | 1     | 1    | 1 | 0 |\n|   | -0.42 | -2.12 | 0.53 | Synapse | 0.74 | 1 | 1     | 0    | 1 |   |\n|   | 0.74  | 0.81  | 1    | 2       | 1    | 1 | 2     | 4.10 |   |   |\n|   | -1.34 | 2.41  |      |         |      |   |       |      |   |   |",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "1. Uniform Quantization"
+    ],
+    "relationships": {
+      "parent_section": "1. Uniform Quantization"
+    },
+    "metadata": {
+      "element_index_on_page": 4,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236639",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {},
+      "table_type": "comparison"
+    },
+    "structured_content": {
+      "headers": [
+        "",
+        "1.730",
+        "563",
+        "200",
+        "0.86",
+        "1",
+        "2",
+        "-4.10",
+        "0",
+        "",
+        ""
+      ],
+      "rows": [
+        [
+          "",
+          "1.730",
+          "563",
+          "200",
+          "0.86",
+          "1",
+          "2",
+          "-4.10",
+          "0",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1.31",
+          "-4.1",
+          "0.72",
+          "-1.27",
+          "1",
+          "0",
+          "1",
+          "1",
+          "1",
+          "0"
+        ],
+        [
+          "",
+          "-0.42",
+          "-2.12",
+          "0.53",
+          "Synapse",
+          "0.74",
+          "1",
+          "1",
+          "0",
+          "1",
+          ""
+        ],
+        [
+          "",
+          "0.74",
+          "0.81",
+          "1",
+          "2",
+          "1",
+          "1",
+          "2",
+          "4.10",
+          "",
+          ""
+        ],
+        [
+          "",
+          "-1.34",
+          "2.41",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "num_rows": 5,
+      "num_columns": 11,
+      "as_markdown": "|   | 1.730 | 563   | 200  | 0.86    | 1    | 2 | -4.10 | 0    |   |   |\n| - | ----- | ----- | ---- | ------- | ---- | - | ----- | ---- | - | - |\n|   | 1.31  | -4.1  | 0.72 | -1.27   | 1    | 0 | 1     | 1    | 1 | 0 |\n|   | -0.42 | -2.12 | 0.53 | Synapse | 0.74 | 1 | 1     | 0    | 1 |   |\n|   | 0.74  | 0.81  | 1    | 2       | 1    | 1 | 2     | 4.10 |   |   |\n|   | -1.34 | 2.41  |      |         |      |   |       |      |   |   |",
+      "table_type": "comparison"
+    },
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "section_header",
+    "text": "Figures",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Figures"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 5,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236664",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Figures"
+    ],
+    "relationships": {
+      "parent_section": "Figures"
+    },
+    "metadata": {
+      "element_index_on_page": 6,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236674",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "text",
+    "text": "Fig. 2. The organization of Spiker spatial dataflow FPGA SNN accelerator with arbitrated active spike selection.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Figures"
+    ],
+    "relationships": {
+      "parent_section": "Figures"
+    },
+    "metadata": {
+      "element_index_on_page": 7,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236683",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "section_header",
+    "text": "Neuron Model",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Neuron Model"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 8,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236692",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "A neuron emits an output spike whenever its membrane potential exceeds a threshold. The membrane potential is updated according to the equation:",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Neuron Model"
+    ],
+    "relationships": {
+      "parent_section": "Neuron Model"
+    },
+    "metadata": {
+      "element_index_on_page": 9,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236701",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "text",
+    "text": "V(t) = V(t − 1) + WiSi(t) − αV(t − 1)",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Neuron Model"
+    ],
+    "relationships": {
+      "parent_section": "Neuron Model"
+    },
+    "metadata": {
+      "element_index_on_page": 10,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236709",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.6
+  },
+  {
+    "content_type": "text",
+    "text": "where V(t) denotes the membrane potential at time step t, Wi are the synaptic weights, and Si(t) are incoming binary spikes.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Neuron Model"
+    ],
+    "relationships": {
+      "parent_section": "Neuron Model"
+    },
+    "metadata": {
+      "element_index_on_page": 11,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236718",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "section_header",
+    "text": "Input Encoding",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Input Encoding"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 12,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236727",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "Static numerical inputs are commonly converted into spike trains using firing-rate encoding. This encoding mechanism integrates naturally with discrete-time SNN inference.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Input Encoding"
+    ],
+    "relationships": {
+      "parent_section": "Input Encoding"
+    },
+    "metadata": {
+      "element_index_on_page": 13,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236736",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "section_header",
+    "text": "Weight Compression with Vector Quantization",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Weight Compression with Vector Quantization"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 14,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236745",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "Neural-network weight compression is commonly achieved through quantization and weight sharing, which are often applied jointly to maximize memory efficiency.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Weight Compression with Vector Quantization"
+    ],
+    "relationships": {
+      "parent_section": "Weight Compression with Vector Quantization"
+    },
+    "metadata": {
+      "element_index_on_page": 15,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236754",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "section_header",
+    "text": "Vector Quantization in VQ4SNN",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Vector Quantization in VQ4SNN"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 16,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236764",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "VQ4SNN builds on these principles by employing VQ as its primary compression mechanism. Instead of sharing individual weights, VQ4SNN groups consecutive synaptic weights into...",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Vector Quantization in VQ4SNN"
+    ],
+    "relationships": {
+      "parent_section": "Vector Quantization in VQ4SNN"
+    },
+    "metadata": {
+      "element_index_on_page": 17,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236772",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "figure",
+    "text": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Vector Quantization in VQ4SNN"
+    ],
+    "relationships": {
+      "parent_section": "Vector Quantization in VQ4SNN"
+    },
+    "metadata": {
+      "element_index_on_page": 18,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236851",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {
+        "name": "img_p1_1.png",
+        "height": 70.651,
+        "width": 145.612,
+        "x": 101.686,
+        "y": 50.542,
+        "rotation": 0
+      }
+    },
+    "structured_content": {
+      "image_name": "img_p1_1.png",
+      "image_path": null,
+      "bbox": {
+        "x": 101.686,
+        "y": 50.542,
+        "width": 145.612,
+        "height": 70.651
+      },
+      "asset_type": "visual_asset"
+    },
+    "caption": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "nearby_context": "High Accuracy Weights 2D Vector 1. Uniform Quantization Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "vision_summary": "No valid image file available.",
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "figure",
+    "text": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Vector Quantization in VQ4SNN"
+    ],
+    "relationships": {
+      "parent_section": "Vector Quantization in VQ4SNN"
+    },
+    "metadata": {
+      "element_index_on_page": 19,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236916",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {
+        "name": "img_p1_2.png",
+        "height": 78.81,
+        "width": 220.93,
+        "x": 64.027,
+        "y": 158.411,
+        "rotation": 0
+      }
+    },
+    "structured_content": {
+      "image_name": "img_p1_2.png",
+      "image_path": null,
+      "bbox": {
+        "x": 64.027,
+        "y": 158.411,
+        "width": 220.93,
+        "height": 78.81
+      },
+      "asset_type": "visual_asset"
+    },
+    "caption": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "nearby_context": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red). Fig. 2. The organization of Spiker spatial dataflow FPGA SNN accelerator with arbitrated active spike selection. High Accuracy Weights 2D Vector",
+    "vision_summary": "No valid image file available.",
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "figure",
+    "text": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 2,
+    "section_path": [
+      "Vector Quantization in VQ4SNN"
+    ],
+    "relationships": {
+      "parent_section": "Vector Quantization in VQ4SNN"
+    },
+    "metadata": {
+      "element_index_on_page": 20,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 2,
+      "extraction_timestamp": "2026-06-24T12:13:43.236976",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {
+        "name": "img_p1_3.png",
+        "height": 137.965,
+        "width": 195.829,
+        "x": 339.594,
+        "y": 50.541,
+        "rotation": 0
+      }
+    },
+    "structured_content": {
+      "image_name": "img_p1_3.png",
+      "image_path": null,
+      "bbox": {
+        "x": 339.594,
+        "y": 50.541,
+        "width": 195.829,
+        "height": 137.965
+      },
+      "asset_type": "visual_asset"
+    },
+    "caption": "Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "nearby_context": "High Accuracy Weights 2D Vector 1. Uniform Quantization Fig. 1. Fully Connected (FC) SNNs with (a) feedforward (FF) connections and (b) with feedforward and intra-layer recurrent (R) synapses (in red).",
+    "vision_summary": "No valid image file available.",
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "section_header",
+    "text": "Document Structure",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 1,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.236993",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Section IV: EVALUATION",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION"
+    ],
+    "relationships": {
+      "level": 2,
+      "parent_section": "Document Structure"
+    },
+    "metadata": {
+      "element_index_on_page": 2,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237004",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "To evaluate VQ4SNN, we compare it against Spiker+ [8] on MNIST [11], SHD [12], and Audio MNIST [13], and against ModNef [3] on two MNIST configurations of different sizes. Spiker+ and ModNef were selected because they represent highly resource-efficient spatial-dataflow FPGA SNN accelerators, making them strong baselines for assessing the effectiveness of the proposed approach. All designs target a Xilinx Artix-7 (xc7v020) FPGA operating at 100 MHz.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION"
+    ],
+    "relationships": {
+      "parent_section": "Section IV: EVALUATION"
+    },
+    "metadata": {
+      "element_index_on_page": 3,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237014",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "text",
+    "text": "For VQ4SNN, all models were trained using SNNTorch [14] and implemented in SystemVerilog RTL. Input encoding follows [8] for MNIST and Audio MNIST, and [12] for SHD. The complete training flow, RTL implementation, and experimental framework are open-sourced at https://github.com/ic-lab-duth, while results for Spiker+ and ModNef are taken directly from their published works.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION"
+    ],
+    "relationships": {
+      "parent_section": "Section IV: EVALUATION"
+    },
+    "metadata": {
+      "element_index_on_page": 4,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237026",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "B. Two-level memory microarchitecture",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "B. Two-level memory microarchitecture"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "Section IV: EVALUATION"
+    },
+    "metadata": {
+      "element_index_on_page": 5,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237037",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "VQ4SNN targets the spatial-dataflow SNN architecture of Fig. 2, where each incoming spike triggers a wide memory access that retrieves the synaptic weights for all N neurons in the target layer, enabling parallel membrane-potential updates within a single cycle. Neuron state, including membrane potentials and firing thresholds, is stored locally in flip-flops, whereas synaptic weights reside in BRAM-based weight memories. The storage and parallel access requirements of these weights incur a substantial memory footprint. To address this challenge, VQ4SNN replaces the conventional memory-based weight memory with a two-level hierarchy comprising a compact pointer memory and a shared vector-quantization codebook, depicted in Fig. 4.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "B. Two-level memory microarchitecture"
+    ],
+    "relationships": {
+      "parent_section": "B. Two-level memory microarchitecture"
+    },
+    "metadata": {
+      "element_index_on_page": 6,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237046",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Table I: Network Configurations and Implementation Results",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "Table I: Network Configurations and Implementation Results"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "Section IV: EVALUATION"
+    },
+    "metadata": {
+      "element_index_on_page": 7,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237055",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "table",
+    "text": "| Configuration                     | MNIST | SHD | Audio MNIST |\n| --------------------------------- | ----- | --- | ----------- |\n| Full-Precision Reference Accuracy | X%    | Y%  | Z%          |\n| VQ4SNN Accuracy                   | A%    | B%  | C%          |\n| LUT Utilization                   | D     | E   | F           |\n| FF Utilization                    | G     | H   | I           |\n| Power Consumption                 | J     | K   | L           |",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "Table I: Network Configurations and Implementation Results"
+    ],
+    "relationships": {
+      "parent_section": "Table I: Network Configurations and Implementation Results"
+    },
+    "metadata": {
+      "element_index_on_page": 8,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237065",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {},
+      "table_type": "comparison"
+    },
+    "structured_content": {
+      "headers": [
+        "Configuration",
+        "MNIST",
+        "SHD",
+        "Audio MNIST"
+      ],
+      "rows": [
+        [
+          "Configuration",
+          "MNIST",
+          "SHD",
+          "Audio MNIST"
+        ],
+        [
+          "Full-Precision Reference Accuracy",
+          "X%",
+          "Y%",
+          "Z%"
+        ],
+        [
+          "VQ4SNN Accuracy",
+          "A%",
+          "B%",
+          "C%"
+        ],
+        [
+          "LUT Utilization",
+          "D",
+          "E",
+          "F"
+        ],
+        [
+          "FF Utilization",
+          "G",
+          "H",
+          "I"
+        ],
+        [
+          "Power Consumption",
+          "J",
+          "K",
+          "L"
+        ]
+      ],
+      "num_rows": 6,
+      "num_columns": 4,
+      "as_markdown": "| Configuration                     | MNIST | SHD | Audio MNIST |\n| --------------------------------- | ----- | --- | ----------- |\n| Full-Precision Reference Accuracy | X%    | Y%  | Z%          |\n| VQ4SNN Accuracy                   | A%    | B%  | C%          |\n| LUT Utilization                   | D     | E   | F           |\n| FF Utilization                    | G     | H   | I           |\n| Power Consumption                 | J     | K   | L           |",
+      "table_type": "comparison"
+    },
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Figure 4: Two-level memory organization",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "Figure 4: Two-level memory organization"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "Section IV: EVALUATION"
+    },
+    "metadata": {
+      "element_index_on_page": 9,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237083",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "- Original weights are replaced by pointers to vector-quantized codebook entries. Weight vectors are retrieved and applied to groups of d neurons in successive phases.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "Figure 4: Two-level memory organization"
+    ],
+    "relationships": {
+      "parent_section": "Figure 4: Two-level memory organization"
+    },
+    "metadata": {
+      "element_index_on_page": 10,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237092",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Figure 3(c): VQ Application",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "Figure 3(c): VQ Application"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "Section IV: EVALUATION"
+    },
+    "metadata": {
+      "element_index_on_page": 11,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237101",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "- VQ is applied to consecutive synapses within each weight row, such that each codebook entry corresponds to a d-dimensional weight vector.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Section IV: EVALUATION",
+      "Figure 3(c): VQ Application"
+    ],
+    "relationships": {
+      "parent_section": "Figure 3(c): VQ Application"
+    },
+    "metadata": {
+      "element_index_on_page": 12,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237110",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Summary of Findings",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings"
+    ],
+    "relationships": {
+      "level": 2,
+      "parent_section": "Document Structure"
+    },
+    "metadata": {
+      "element_index_on_page": 13,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237119",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "Across all benchmarks, VQ4SNN preserves inference accuracy while maintaining LUT, FF, and power consumption comparable to or lower than the baseline architectures. For Spiker+, only the combined LUT+FF utilization is available for SHD and Audio MNIST. The primary benefit is the substantial reduction in BRAM usage, reaching 52%, 61%, and 53% for MNIST, SHD, and Audio MNIST, respectively, when compared to Spiker+.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings"
+    ],
+    "relationships": {
+      "parent_section": "Summary of Findings"
+    },
+    "metadata": {
+      "element_index_on_page": 14,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237128",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Example Analysis",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings",
+      "Example Analysis"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "Summary of Findings"
+    },
+    "metadata": {
+      "element_index_on_page": 15,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237137",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "These savings can be explained using MNIST as an example, where VQ is applied to the 5-bit weights of Layer 1 with (d, k) = (8, 2048). This layer contains 912 synaptic rows.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings",
+      "Example Analysis"
+    ],
+    "relationships": {
+      "parent_section": "Example Analysis"
+    },
+    "metadata": {
+      "element_index_on_page": 16,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237146",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "text",
+    "text": "----",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings",
+      "Example Analysis"
+    ],
+    "relationships": {
+      "parent_section": "Example Analysis"
+    },
+    "metadata": {
+      "element_index_on_page": 17,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237230",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.6
+  },
+  {
+    "content_type": "subsection_header",
+    "text": "Images",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings",
+      "Images"
+    ],
+    "relationships": {
+      "level": 3,
+      "parent_section": "Summary of Findings"
+    },
+    "metadata": {
+      "element_index_on_page": 18,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237248",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "- **Figure 4**: Two-level memory organization\n- **Figure 3(c)**: VQ Application",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings",
+      "Images"
+    ],
+    "relationships": {
+      "parent_section": "Images"
+    },
+    "metadata": {
+      "element_index_on_page": 19,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237259",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.6
+  },
+  {
+    "content_type": "text",
+    "text": "This structure captures the key elements of the document, including headings, tables, and figures, while maintaining clarity on the hierarchy and content.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings",
+      "Images"
+    ],
+    "relationships": {
+      "parent_section": "Images"
+    },
+    "metadata": {
+      "element_index_on_page": 20,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237268",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "figure",
+    "text": "Figure 4: Two-level memory organization",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 3,
+    "section_path": [
+      "Document Structure",
+      "Summary of Findings",
+      "Images"
+    ],
+    "relationships": {
+      "parent_section": "Images"
+    },
+    "metadata": {
+      "element_index_on_page": 21,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 3,
+      "extraction_timestamp": "2026-06-24T12:13:43.237370",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {
+        "name": "img_p2_1.png",
+        "height": 154.308,
+        "width": 170.716,
+        "x": 89.134,
+        "y": 50.54,
+        "rotation": 0
+      }
+    },
+    "structured_content": {
+      "image_name": "img_p2_1.png",
+      "image_path": null,
+      "bbox": {
+        "x": 89.134,
+        "y": 50.54,
+        "width": 170.716,
+        "height": 154.308
+      },
+      "asset_type": "visual_asset"
+    },
+    "caption": "Figure 4: Two-level memory organization",
+    "nearby_context": "Section IV: EVALUATION Figure 4: Two-level memory organization - Original weights are replaced by pointers to vector-quantized codebook entries. Weight vectors are retrieved and applied to groups of d neurons in successive phases.",
+    "vision_summary": "No valid image file available.",
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "section_header",
+    "text": "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 1,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237391",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "table",
+    "text": "| Dataset              | MNIST Base (SNN Structure) (784-128-10) | SHD                 | AudioMNIST  | MNIST Large (784-392-196-10) |\n| -------------------- | --------------------------------------- | ------------------- | ----------- | ---------------------------- |\n| Proposed Design      | Spiker+                                 | ModNEF L1:d=8 k=211 | Spiker+     | L1:d=4 k=211                 |\n| Network Type         | FC-FF                                   | FC-FF-R             | FC-FF-R     | FC-FF                        |\n| Ref. Accuracy        | 96.83%                                  | 95.51%              | 96.35%      | 75.44%                       |\n| HW Accuracy          | 93.85%                                  | 95.76%              | 95.29%      | 72.99%                       |\n| Weight bits          | 4                                       | 10                  | 5 F(6)/R(5) | 7                            |\n| Memb. Potential bits | 6                                       | N.R.a               | 11          | 8                            |\n| LUTs                 | 4314                                    | 5947                | 7055        | 18268                        |\n| FFs                  | 3298                                    | 3060                | 3606        | 5686                         |\n| DSPs                 | -                                       | -                   | -           | -                            |\n| BRAMs                | 18.0                                    | 42.5                | 8.5         | 51.0                         |\n| Power (mW)           | 180                                     | 141                 | 158         | 430                          |\n| Latency/inputb (ms)  | 0.780                                   | 0.115               | 0.246       | 0.540                        |\n| Spikes time-steps    | 100                                     | 100                 | 25          | 100                          |",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS"
+    ],
+    "relationships": {
+      "parent_section": "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS"
+    },
+    "metadata": {
+      "element_index_on_page": 2,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237404",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {},
+      "table_type": "comparison"
+    },
+    "structured_content": {
+      "headers": [
+        "Dataset",
+        "MNIST Base (SNN Structure) (784-128-10)",
+        "SHD",
+        "AudioMNIST",
+        "MNIST Large (784-392-196-10)"
+      ],
+      "rows": [
+        [
+          "Dataset",
+          "MNIST Base (SNN Structure) (784-128-10)",
+          "SHD",
+          "AudioMNIST",
+          "MNIST Large (784-392-196-10)"
+        ],
+        [
+          "Proposed Design",
+          "Spiker+",
+          "ModNEF L1:d=8 k=211",
+          "Spiker+",
+          "L1:d=4 k=211"
+        ],
+        [
+          "Network Type",
+          "FC-FF",
+          "FC-FF-R",
+          "FC-FF-R",
+          "FC-FF"
+        ],
+        [
+          "Ref. Accuracy",
+          "96.83%",
+          "95.51%",
+          "96.35%",
+          "75.44%"
+        ],
+        [
+          "HW Accuracy",
+          "93.85%",
+          "95.76%",
+          "95.29%",
+          "72.99%"
+        ],
+        [
+          "Weight bits",
+          "4",
+          "10",
+          "5 F(6)/R(5)",
+          "7"
+        ],
+        [
+          "Memb. Potential bits",
+          "6",
+          "N.R.a",
+          "11",
+          "8"
+        ],
+        [
+          "LUTs",
+          "4314",
+          "5947",
+          "7055",
+          "18268"
+        ],
+        [
+          "FFs",
+          "3298",
+          "3060",
+          "3606",
+          "5686"
+        ],
+        [
+          "DSPs",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "BRAMs",
+          "18.0",
+          "42.5",
+          "8.5",
+          "51.0"
+        ],
+        [
+          "Power (mW)",
+          "180",
+          "141",
+          "158",
+          "430"
+        ],
+        [
+          "Latency/inputb (ms)",
+          "0.780",
+          "0.115",
+          "0.246",
+          "0.540"
+        ],
+        [
+          "Spikes time-steps",
+          "100",
+          "100",
+          "25",
+          "100"
+        ]
+      ],
+      "num_rows": 14,
+      "num_columns": 5,
+      "as_markdown": "| Dataset              | MNIST Base (SNN Structure) (784-128-10) | SHD                 | AudioMNIST  | MNIST Large (784-392-196-10) |\n| -------------------- | --------------------------------------- | ------------------- | ----------- | ---------------------------- |\n| Proposed Design      | Spiker+                                 | ModNEF L1:d=8 k=211 | Spiker+     | L1:d=4 k=211                 |\n| Network Type         | FC-FF                                   | FC-FF-R             | FC-FF-R     | FC-FF                        |\n| Ref. Accuracy        | 96.83%                                  | 95.51%              | 96.35%      | 75.44%                       |\n| HW Accuracy          | 93.85%                                  | 95.76%              | 95.29%      | 72.99%                       |\n| Weight bits          | 4                                       | 10                  | 5 F(6)/R(5) | 7                            |\n| Memb. Potential bits | 6                                       | N.R.a               | 11          | 8                            |\n| LUTs                 | 4314                                    | 5947                | 7055        | 18268                        |\n| FFs                  | 3298                                    | 3060                | 3606        | 5686                         |\n| DSPs                 | -                                       | -                   | -           | -                            |\n| BRAMs                | 18.0                                    | 42.5                | 8.5         | 51.0                         |\n| Power (mW)           | 180                                     | 141                 | 158         | 430                          |\n| Latency/inputb (ms)  | 0.780                                   | 0.115               | 0.246       | 0.540                        |\n| Spikes time-steps    | 100                                     | 100                 | 25          | 100                          |",
+      "table_type": "comparison"
+    },
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "text",
+    "text": "aN.R.: Not Reported  b Input refers to one complete inference sample (e.g., a single image or audio recording)",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS"
+    ],
+    "relationships": {
+      "parent_section": "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS"
+    },
+    "metadata": {
+      "element_index_on_page": 3,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237438",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.75
+  },
+  {
+    "content_type": "text",
+    "text": "(784 feedforward and 128 inhibitory), each compressed into substantial reductions in overall memory footprint and BRAM utilization while preserving baseline inference accuracy. As future work, we plan to co-optimize SNN training and compression by encouraging similarity among neighboring synaptic weights, and also to improve neuron maturity to further optimize FPGA resource utilization.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS"
+    ],
+    "relationships": {
+      "parent_section": "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS"
+    },
+    "metadata": {
+      "element_index_on_page": 4,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237448",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "section_header",
+    "text": "References",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "References"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 5,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237459",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "1. M. Davies et al., “Loihi: A neuromorphic manycore processor with chip learning,” IEEE micro, vol. 38, no. 1, pp. 82–99, 2018.\n2. M. Karamimanesh et al., “Spiking neural networks on FPGA: A survey of methodologies and recent advancements,” Neural Networks, vol. 186, p. 107256, 2025.\n3. A. Saulquin et al., “Modnef: An open source modular neuromorphic emulator for FPGA for low-power in-edge artificial intelligence,” ACM TACO, vol. 22, no. 2, pp. 1–24, 2025.\n4. T. Liang et al., “Pruning and quantization for deep neural network acceleration: A survey,” Neurocomputing, vol. 461, pp. 370–403, 2021.\n5. Y. Liu et al., “Vptq: Extreme low-bit vector post-training quantization for large language models,” in Proc. of Conf. on Empirical Methods in Natural Language Processing, 2024, pp. 8181–8196.\n6. B. Duan et al., “EVA: Accelerating LLM Decoding via an Efficient Vector Quantization Architecture,” in IEEE ISCA, 2026.\n7. I. Kartashov, M. Pushkareva, and I. Karandashev, “Spikefit: Towards optimal deployment of spiking networks on neuromorphic hardware,” in arXiv 2510.15542, 2025.\n8. A. Carpegna, A. Savino, and S. Di Carlo, “Spiker+: a framework for the generation of efficient spiking neural networks fpga accelerators for inference at the edge,” IEEE Trans. on Emerging Topics in Computing, vol. 13, no. 3, pp. 784–798, 2024.\n9. J. Li et al., “FireFly v2: Advancing hardware support for high-performance spiking neural network with a spatiotemporal FPGA accelerator,” IEEE Trans. on CAD, vol. 43, no. 9, pp. 2647–2660, 2024.\n10. F. Asim, S. Aung, and J. Lee, “FlowQ: fixed-point low-precision training quantization framework for efficient and accurate snn inference,” in ASP-DAC, 2026, pp. 119–125.\n11. Y. LeCun et al., “Gradient-based learning applied to document recognition,” Proc. of the IEEE, vol. 86, no. 11, pp. 2278–2324, 1998.\n12. B. Cramer et al., “The heidelberg spiking data sets for the systematic evaluation of spiking neural networks,” IEEE Trans. on Neural Networks and Learning Systems, vol. 33, no. 7, pp. 2744–2757, 2020.\n13. S. Becker et al., “Audiomnist: Exploring explainable artificial intelligence for audio analysis on a simple benchmark,” Journal of the Franklin Institute, vol. 361, no. 1, pp. 418–428, 2024.\n14. J. K. Eshraghian et al., “Training spiking neural networks using lessons from deep learning,” Proc. of the IEEE, vol. 111, no. 9, pp. 1016–1054, 2023.",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "References"
+    ],
+    "relationships": {
+      "parent_section": "References"
+    },
+    "metadata": {
+      "element_index_on_page": 6,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237468",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "section_header",
+    "text": "Conclusions",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "Conclusions"
+    ],
+    "relationships": {
+      "level": 1,
+      "parent_section": null
+    },
+    "metadata": {
+      "element_index_on_page": 7,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237478",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.9
+  },
+  {
+    "content_type": "text",
+    "text": "In this paper, we presented VQ4SNN, an FPGA SNN architecture that addresses the memory bottlenecks of SNN inference through weight VQ. By combining a compressed two-level memory organization with a time-shared codebook access scheme, VQ4SNN significantly reduces on-chip storage requirements with the need for heavy multiporting. Hardware evaluations on representative SNN workloads demonstrate...",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "Conclusions"
+    ],
+    "relationships": {
+      "parent_section": "Conclusions"
+    },
+    "metadata": {
+      "element_index_on_page": 8,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237488",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {}
+    },
+    "structured_content": null,
+    "caption": null,
+    "nearby_context": null,
+    "vision_summary": null,
+    "quality_score": 0.85
+  },
+  {
+    "content_type": "figure",
+    "text": "chart_p4_0.png",
+    "source_file": "test_data\\research_papers\\sample.pdf",
+    "document_type": ".pdf",
+    "page_number": 4,
+    "section_path": [
+      "Conclusions"
+    ],
+    "relationships": {
+      "parent_section": "Conclusions"
+    },
+    "metadata": {
+      "element_index_on_page": 9,
+      "source_file_name": "sample.pdf",
+      "full_source_path": "test_data\\research_papers\\sample.pdf",
+      "page_number": 4,
+      "extraction_timestamp": "2026-06-24T12:13:43.237626",
+      "parser_version": "v2-step5.1",
+      "original_item_metadata": {
+        "name": "chart_p4_0.png",
+        "height": 633.593,
+        "width": 514.3910000000001,
+        "x": 48.964,
+        "y": 62.114,
+        "original_width": 1038,
+        "original_height": 1279,
+        "rotation": 0
+      }
+    },
+    "structured_content": {
+      "image_name": "chart_p4_0.png",
+      "image_path": null,
+      "bbox": {
+        "x": 48.964,
+        "y": 62.114,
+        "width": 514.3910000000001,
+        "height": 633.593
+      },
+      "asset_type": "visual_asset"
+    },
+    "caption": "",
+    "nearby_context": "Performance and Resource Comparison of VQ4SNN, Spiker+, and ModNEF FPGA SNNS aN.R.: Not Reported  b Input refers to one complete inference sample (e.g., a single image or audio recording) (784 feedforward and 128 inhibitory), each compressed into substantial reductions in overall memory footprint and BRAM utilization while preserving baseline inference accuracy. As future work, we plan to co-optimize SNN training and compression by encouraging similarity among neighboring synaptic weights, and also to improve neuron maturity to further optimize FPGA resource utilization.",
+    "vision_summary": "No valid image file available.",
+    "quality_score": 0.75
+  }
+]

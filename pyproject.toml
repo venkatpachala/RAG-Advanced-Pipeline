@@ -16,6 +16,7 @@ dependencies = [
     "llama-index-readers-file>=0.6.0",
     "llama-parse>=0.6.94",
     "logging>=0.4.9.6",
+    "nest-asyncio>=1.6.0",
     "ollama>=0.6.2",
     "pydantic>=2.13.4",
     "pymupdf>=1.27.2.3",
