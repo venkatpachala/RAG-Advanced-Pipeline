@@ -11,19 +11,17 @@ class EmbeddingPipeline:
     def __init__(
         self,
         embedding_model: str = "BAAI/bge-m3",
-        qdrant_host: str = "localhost",
-        qdrant_port: int = 6333,
-        collection_name: str = "rag_chunks"
+        collection_name: str = "rag_chunks_v1"
     ):
         self.embedder = Embedder(model_name=embedding_model)
-        self.vector_store = VectorStore(host=qdrant_host, port=qdrant_port)
+        self.vector_store = VectorStore()
         self.collection_name = collection_name
 
-        # Create collection if not exists
+        # Create collection if it doesn't exist
         self.vector_store.create_collection(self.collection_name)
+        self.vector_store.create_payload_indexes(self.collection_name)
 
     def embed_and_store(self, chunks: List[Chunk]):
-        """Embed chunks and store them in Qdrant."""
         if not chunks:
             logger.warning("No chunks to embed.")
             return

@@ -2,8 +2,7 @@ import logging
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
-    Distance, VectorParams, SparseVectorParams, SparseIndexParams,
-    PointStruct, Filter, FieldCondition, MatchValue, PayloadSchemaType
+    Distance, VectorParams, PointStruct, PayloadSchemaType
 )
 
 logger = logging.getLogger(__name__)
@@ -15,29 +14,24 @@ class VectorStore:
         logger.info("Connected to Qdrant")
 
     def create_collection(self, collection_name: str):
-        """Create collection with hybrid vector support"""
+        """Create collection (simple & reliable version)"""
         try:
             self.client.create_collection(
                 collection_name=collection_name,
-                vectors_config={
-                    "dense": VectorParams(
-                        size=1024,
-                        distance=Distance.COSINE,
-                        on_disk=True
-                    ),
-                    "sparse": SparseVectorParams(
-                        index=SparseIndexParams(on_disk=False)
-                    )
-                }
+                vectors_config=VectorParams(
+                    size=1024,
+                    distance=Distance.COSINE,
+                    on_disk=True
+                )
             )
-            logger.info(f"Collection '{collection_name}' created with hybrid config")
+            logger.info(f"Collection '{collection_name}' created successfully")
         except Exception:
             logger.info(f"Collection '{collection_name}' already exists")
 
     def create_payload_indexes(self, collection_name: str):
-        """Create indexes for fast filtering (Very Important)"""
+        """Create indexes for fast filtering"""
         fields = ["element_type", "section_path", "chunk_level", "source_file"]
-        
+
         for field in fields:
             try:
                 self.client.create_payload_index(
@@ -45,21 +39,18 @@ class VectorStore:
                     field_name=field,
                     field_schema=PayloadSchemaType.KEYWORD
                 )
-                logger.info(f"Created payload index for: {field}")
+                logger.info(f"Created index for: {field}")
             except Exception as e:
-                logger.warning(f"Index already exists or failed for {field}: {e}")
+                logger.warning(f"Could not create index for {field}: {e}")
 
     def upsert_points(self, collection_name: str, points: List[Dict[str, Any]]):
-        """Insert or update points"""
+        """Insert vectors + metadata into Qdrant"""
         qdrant_points = []
         for point in points:
             qdrant_points.append(
                 PointStruct(
                     id=point["id"],
-                    vector={
-                        "dense": point["vector"]["dense"],
-                        "sparse": point["vector"].get("sparse")
-                    },
+                    vector=point["vector"]["dense"],   # Using only dense for now
                     payload=point["payload"]
                 )
             )
@@ -74,7 +65,7 @@ class VectorStore:
         limit: int = 10,
         filter_conditions: Optional[Dict] = None
     ):
-        """Basic dense vector search"""
+        """Basic vector search"""
         results = self.client.search(
             collection_name=collection_name,
             query_vector=query_vector,
