@@ -2,7 +2,16 @@ import logging
 from typing import List, Dict, Any, Optional
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
-    Distance, VectorParams, PointStruct, PayloadSchemaType
+    Distance,
+    VectorParams,
+    SparseVectorParams,
+    SparseIndexParams,
+    PointStruct,
+    PayloadSchemaType,
+    SparseVector,
+    Filter,
+    FieldCondition,
+    MatchValue
 )
 
 logger = logging.getLogger(__name__)
@@ -13,23 +22,41 @@ class VectorStore:
         self.client = QdrantClient(host=host, port=port)
         logger.info("Connected to Qdrant")
 
-    def create_collection(self, collection_name: str):
-        """Create collection (simple & reliable version)"""
+    def create_collection(
+        self, 
+        collection_name: str, 
+        dense_dim: int = 1024
+    ):
+        """
+        Create collection with separate dense and sparse vector configs.
+        """
         try:
+            if self.client.collection_exists(collection_name):
+                logger.info(f"Collection '{collection_name}' already exists")
+                return
+
             self.client.create_collection(
                 collection_name=collection_name,
-                vectors_config=VectorParams(
-                    size=1024,
-                    distance=Distance.COSINE,
-                    on_disk=True
-                )
+                vectors_config={
+                    "dense": VectorParams(
+                        size=dense_dim,
+                        distance=Distance.COSINE,
+                        on_disk=True
+                    )
+                },
+                sparse_vectors_config={
+                    "sparse": SparseVectorParams(
+                        index=SparseIndexParams(on_disk=False)
+                    )
+                }
             )
             logger.info(f"Collection '{collection_name}' created successfully")
-        except Exception:
-            logger.info(f"Collection '{collection_name}' already exists")
+
+        except Exception as e:
+            logger.error(f"Failed to create collection '{collection_name}': {e}")
+            raise  # Re-raise so the pipeline can stop
 
     def create_payload_indexes(self, collection_name: str):
-        """Create indexes for fast filtering"""
         fields = ["element_type", "section_path", "chunk_level", "source_file"]
 
         for field in fields:
@@ -39,18 +66,42 @@ class VectorStore:
                     field_name=field,
                     field_schema=PayloadSchemaType.KEYWORD
                 )
-                logger.info(f"Created index for: {field}")
+                logger.info(f"Created index for field: {field}")
             except Exception as e:
                 logger.warning(f"Could not create index for {field}: {e}")
 
     def upsert_points(self, collection_name: str, points: List[Dict[str, Any]]):
-        """Insert vectors + metadata into Qdrant"""
+        """
+        Upsert points with proper sparse vector formatting.
+        Expects:
+        {
+            "id": str/int,
+            "vector": {
+                "dense": List[float],
+                "sparse": {"indices": List[int], "values": List[float]}
+            },
+            "payload": dict
+        }
+        """
         qdrant_points = []
         for point in points:
+            vector = point["vector"]
+            sparse_vector = None
+
+            if vector.get("sparse"):
+                sparse_data = vector["sparse"]
+                sparse_vector = SparseVector(
+                    indices=sparse_data["indices"],
+                    values=sparse_data["values"]
+                )
+
             qdrant_points.append(
                 PointStruct(
                     id=point["id"],
-                    vector=point["vector"]["dense"],   # Using only dense for now
+                    vector={
+                        "dense": vector["dense"],
+                        "sparse": sparse_vector
+                    },
                     payload=point["payload"]
                 )
             )
@@ -65,12 +116,19 @@ class VectorStore:
         limit: int = 10,
         filter_conditions: Optional[Dict] = None
     ):
-        """Basic vector search"""
-        results = self.client.search(
+        """Basic dense search"""
+        query_filter = None
+        if filter_conditions:
+            conditions = [
+                FieldCondition(key=key, match=MatchValue(value=value))
+                for key, value in filter_conditions.items()
+            ]
+            query_filter = Filter(must=conditions)
+
+        return self.client.search(
             collection_name=collection_name,
             query_vector=query_vector,
             limit=limit,
             with_payload=True,
-            query_filter=filter_conditions
+            query_filter=query_filter
         )
-        return results
