@@ -10,8 +10,7 @@ logger = logging.getLogger(__name__)
 
 class QueryEngine:
     """
-    Advanced Query Engine with Hybrid Search + Reranking.
-    Uses sentence-transformers CrossEncoder for stable reranking.
+    Advanced Query Engine with Grounded LLM-based Query Rewriting
     """
 
     def __init__(
@@ -22,14 +21,17 @@ class QueryEngine:
     ):
         self.retriever = Retriever(collection_name=collection_name)
         self.embedder = Embedder()
-        self.rewriter = QueryRewriter() if enable_query_rewriting else None
+
+        # Grounded Query Rewriter
+        self.rewriter = QueryRewriter(model="qwen2.5:7b") if enable_query_rewriting else None
+
         self.enable_reranking = enable_reranking
         self.enable_query_rewriting = enable_query_rewriting
 
         if enable_reranking:
             try:
                 self.reranker = CrossEncoder('BAAI/bge-reranker-base', max_length=512)
-                logger.info("Reranker initialized successfully (sentence-transformers)")
+                logger.info("Reranker initialized successfully")
             except Exception as e:
                 logger.warning(f"Failed to load reranker: {e}")
                 self.enable_reranking = False
@@ -42,11 +44,11 @@ class QueryEngine:
         rerank_top_k: int = 20,
         filter_dict: Optional[Dict[str, Any]] = None
     ) -> List[Dict[str, Any]]:
+
         if not user_query or not user_query.strip():
-            logger.warning("Empty query provided.")
             return []
 
-        # Step 1: Query Rewriting (optional)
+        # Step 1: Grounded Query Rewriting
         final_query = user_query
         if self.enable_query_rewriting and use_rewriting and self.rewriter:
             final_query = self.rewriter.rewrite_query(user_query)
@@ -62,7 +64,6 @@ class QueryEngine:
         sparse_vector = query_embedding.get("sparse")
 
         if not dense_vector:
-            logger.error("Dense vector missing.")
             return []
 
         # Step 3: Hybrid Search
@@ -76,18 +77,14 @@ class QueryEngine:
         if not candidates:
             return []
 
-        # Step 4: Reranking (using sentence-transformers)
+        # Step 4: Reranking
         if self.enable_reranking and len(candidates) > 1:
             try:
                 pairs = [[final_query, item.get("text", "")] for item in candidates]
                 scores = self.reranker.predict(pairs)
 
-                ranked_results = sorted(
-                    zip(candidates, scores), 
-                    key=lambda x: x[1], 
-                    reverse=True
-                )
-                final_results = [item for item, score in ranked_results[:limit]]
+                ranked = sorted(zip(candidates, scores), key=lambda x: x[1], reverse=True)
+                final_results = [item for item, score in ranked[:limit]]
             except Exception as e:
                 logger.warning(f"Reranking failed: {e}. Using original results.")
                 final_results = candidates[:limit]
