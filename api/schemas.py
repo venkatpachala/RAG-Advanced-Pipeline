@@ -12,8 +12,10 @@ class QueryResponse(BaseModel):
     citations: List[str]
     grounded: bool
     chunks_used: int
+    request_id: str
 
 class IngestResponse(BaseModel):
     message: str
     filename: str
     status: str = "success"
+

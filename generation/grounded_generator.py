@@ -1,6 +1,6 @@
 import logging
-import json
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
+
 from observability import log_stage
 import ollama
 
@@ -9,7 +9,8 @@ logger = logging.getLogger(__name__)
 
 class GroundedGenerator:
     """
-    Grounded Generation with token usage tracking and structured logging.
+    Grounded Generation with proper observability, request tracing,
+    and token usage tracking.
     """
 
     def __init__(self, model: str = "qwen2.5:7b"):
@@ -20,10 +21,18 @@ class GroundedGenerator:
         self,
         user_query: str,
         retrieved_chunks: List[Dict[str, Any]],
+        request_id: Optional[str] = None,
         max_context_chars: int = 8000
     ) -> Dict[str, Any]:
-
+        """
+        Generate a grounded answer with citations.
+        Now properly integrated with observability layer.
+        """
         if not retrieved_chunks:
+            logger.warning(
+                "No chunks retrieved for generation",
+                extra={"request_id": request_id, "query": user_query}
+            )
             return {
                 "answer": "I don't have enough relevant information in the provided documents to answer this question.",
                 "citations": [],
@@ -32,7 +41,7 @@ class GroundedGenerator:
                 "tokens": {"input": 0, "output": 0, "total": 0}
             }
 
-        # Build context and citations
+        # Build context + citations
         context_parts = []
         citations = []
 
@@ -47,11 +56,17 @@ class GroundedGenerator:
 
         context = "\n\n".join(context_parts)[:max_context_chars]
 
-        system_prompt = """You are a precise and trustworthy assistant.
-Answer the user's question **only** using the provided context.
-- If the answer is not in the context, clearly say so.
-- Use citations like [1], [2] when making claims.
-- Be concise and clear."""
+        # Balanced system prompt (strict but not overly cautious)
+        system_prompt = """You are a precise and trustworthy research assistant.
+
+Your job is to answer the user's question using **only** the information provided in the Context.
+
+Rules:
+- Base your answer strictly on the provided Context.
+- If the Context does not contain enough information, clearly state that.
+- Always cite sources using the format shown in the context (e.g., filename (Page X)).
+- Be concise and focused. Avoid adding unnecessary background information.
+- Do not speculate or add information from outside the Context."""
 
         user_prompt = f"""Context:
 {context}
@@ -61,11 +76,13 @@ Question: {user_query}
 Answer:"""
 
         try:
-            with log_stage("llm_generation", {
-                "query": user_query,
-                "num_chunks": len(retrieved_chunks),
-                "context_length": len(context)
-            }):
+            with log_stage(
+                "llm_generation",
+                request_id=request_id,
+                query=user_query,
+                num_chunks=len(retrieved_chunks),
+                context_length=len(context)
+            ):
                 response = ollama.chat(
                     model=self.model,
                     messages=[
@@ -73,27 +90,30 @@ Answer:"""
                         {"role": "user", "content": user_prompt}
                     ],
                     options={
-                        "temperature": 0.2,
+                        "temperature": 0.15,   # Slightly lower for more deterministic output
                         "num_predict": 900
                     }
                 )
 
-            answer = response['message']['content'].strip()
+            answer = response["message"]["content"].strip()
 
-            # Try to extract token usage (Ollama sometimes provides this)
+            # Extract token usage (Ollama provides these fields)
             tokens = {
                 "input": response.get("prompt_eval_count", 0),
                 "output": response.get("eval_count", 0),
                 "total": response.get("prompt_eval_count", 0) + response.get("eval_count", 0)
             }
 
-            # Log token usage
-            logger.info(json.dumps({
-                "event": "generation_tokens",
-                "model": self.model,
-                "query": user_query,
-                "tokens": tokens
-            }))
+            # Log token usage as structured event
+            logger.info(
+                "Generation completed",
+                extra={
+                    "request_id": request_id,
+                    "event": "generation_tokens",
+                    "model": self.model,
+                    "tokens": tokens
+                }
+            )
 
             return {
                 "answer": answer,
@@ -104,11 +124,16 @@ Answer:"""
             }
 
         except Exception as e:
-            logger.error(json.dumps({
-                "event": "generation_failed",
-                "query": user_query,
-                "error": str(e)
-            }))
+            logger.error(
+                "Generation failed",
+                extra={
+                    "request_id": request_id,
+                    "event": "generation_failed",
+                    "query": user_query,
+                    "error": str(e)
+                },
+                exc_info=True
+            )
             return {
                 "answer": "An error occurred while generating the answer.",
                 "citations": [],

@@ -2,12 +2,15 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from starlette.middleware.base import BaseHTTPMiddleware
+from observability import setup_logging
 import time
 import logging
 import json
 
 from api.routers import ingest, query
 from observability import generate_request_id
+
+setup_logging()   # Call this before creating the FastAPI app
 
 logger = logging.getLogger("rag_api")
 
