@@ -1,0 +1,65 @@
+[
+  {
+    "input": "How does the system reduce cold start latency?",
+    "expected_output": "The system reduces cold start latency by proposing a dynamic programming-based layer allocation algorithm that optimally partitions model layers across heterogeneous devices and overlaps model loading with ongoing computation and communication phases to hide loading latency.",
+    "retrieval_context": [
+      "The algorithm uses dynamic programming to allocate model layers across devices.",
+      "It overlaps model loading with ongoing computation and communication phases within the pipeline to hide the loading latency.",
+      "This approach minimizes end-to-end inference latency in wireless collaborative edge LLM systems."
+    ]
+  },
+  {
+    "input": "What is the main contribution of this paper?",
+    "expected_output": "The main contribution of this paper is a latency-aware pipeline scheduling algorithm using dynamic programming to solve the cold-start problem in wireless distributed collaborative inference for edge LLM systems.",
+    "retrieval_context": [
+      "This paper proposes a latency-aware pipeline scheduling algorithm tailored for edge environments.",
+      "The key idea is to overlap model loading with ongoing computation and communication phases.",
+      "We propose a novel dynamic programming–based layer allocation algorithm to minimize latency."
+    ]
+  },
+  {
+    "input": "What causes cold start latency in edge devices?",
+    "expected_output": "Cold start latency in edge devices occurs because of long idle periods between inference requests. During these periods, the model parameters are stored in local storage, and each new inference task requires loading the model from storage into memory from scratch.",
+    "retrieval_context": [
+      "The cold start problem in personal devices, where long idle periods between inference requests are typical.",
+      "Each task may require loading the model from storage into memory from scratch.",
+      "This leads to substantial latency during inference requests."
+    ]
+  },
+  {
+    "input": "How does the proposed algorithm allocate model layers?",
+    "expected_output": "The algorithm uses dynamic programming to optimally partition model layers across heterogeneous devices while carefully modeling computation, communication, and I/O overheads to minimize overall latency.",
+    "retrieval_context": [
+      "The algorithm dynamically optimizes layer deployment based on the input token length.",
+      "It optimally partitions model layers across devices.",
+      "It carefully models computation, communication, and I/O overheads."
+    ]
+  },
+  {
+    "input": "What does Figure 3 show?",
+    "expected_output": "Figure 3 shows a performance comparison of the proposed DP algorithm against baseline methods. It includes cold start delay changes with load and the performance improvement percentage of the proposed algorithm compared to baseline strategies.",
+    "retrieval_context": [
+      "Figure 3: Performance comparison of the proposed DP algorithm against baseline methods.",
+      "Figure 3(b): Detailed analysis of cold-start latency across different token lengths.",
+      "Comparison of four strategies under different load conditions."
+    ]
+  },
+  {
+    "input": "What is the key idea behind the proposed scheduling algorithm?",
+    "expected_output": "The key idea is to overlap model loading with ongoing computation and communication phases within the pipeline. This hides the loading latency and reduces pipeline stalls, thereby minimizing end-to-end inference latency.",
+    "retrieval_context": [
+      "The key idea is to overlap model loading with ongoing computation and communication phases within the pipeline.",
+      "This approach hides the loading latency and reduces pipeline stalls.",
+      "It minimizes end-to-end inference latency in wireless collaborative edge LLM systems."
+    ]
+  },
+  {
+    "input": "What are the main challenges addressed in this paper?",
+    "expected_output": "The paper addresses the cold-start latency challenge in wireless networks composed of heterogeneous devices, where long idle periods cause significant latency during model loading for inference tasks.",
+    "retrieval_context": [
+      "We tackle the challenge of inference cold-start latency in wireless networks composed of heterogeneous devices.",
+      "Long idle periods between inference requests cause substantial latency.",
+      "Each task may require loading the model from storage into memory from scratch."
+    ]
+  }
+]

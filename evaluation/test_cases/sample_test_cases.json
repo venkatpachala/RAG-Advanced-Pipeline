@@ -1,0 +1,42 @@
+[
+  {
+    "query": "How does the system reduce cold start latency?",
+    "relevant_texts": [
+      "dynamic programming-based layer allocation algorithm",
+      "overlaps model loading with ongoing computation and communication phases",
+      "minimize end-to-end inference latency"
+    ]
+  },
+  {
+    "query": "What is the main contribution of this paper?",
+    "relevant_texts": [
+      "proposes a latency-aware pipeline scheduling algorithm",
+      "dynamic programming–based layer allocation algorithm",
+      "tackle the cold-start challenge in wireless distributed collaborative inference"
+    ]
+  },
+  {
+    "query": "What does Figure 3 show?",
+    "relevant_texts": [
+      "comparison of four strategies",
+      "Performance improvement percentage of the proposed algorithm compared to baseline strategies",
+      "Cold start delay changes with load"
+    ]
+  },
+  {
+    "query": "What causes cold start latency in edge devices?",
+    "relevant_texts": [
+      "long idle periods between inference requests",
+      "each task may require loading the model from storage into memory from scratch",
+      "disk read speed as a performance bottleneck"
+    ]
+  },
+  {
+    "query": "How does the algorithm allocate model layers?",
+    "relevant_texts": [
+      "optimally partitions model layers across devices",
+      "carefully modeling computation, communication, and I/O overheads",
+      "layer allocation algorithm to minimize latency"
+    ]
+  }
+]

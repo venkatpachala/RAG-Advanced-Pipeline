@@ -1,4 +1,4 @@
-from rag_pipeline import RAGPipeline
+from pipeline.rag_pipeline import RAGPipeline
 
 def test_rag_pipeline():
     print("\n" + "="*90)

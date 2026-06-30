@@ -1,7 +1,7 @@
 import logging
 from typing import List
 from ingestion.embedding.embedder import Embedder
-from ingestion.retrieval.retriever import Retriever
+from retrieval.retriever import Retriever
 import ollama
 
 logger = logging.getLogger(__name__)

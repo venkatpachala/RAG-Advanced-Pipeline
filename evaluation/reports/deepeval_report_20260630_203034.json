@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-06-30T20:30:34.522073",
+  "total_test_cases": 7,
+  "metrics_used": [
+    "FaithfulnessMetric",
+    "AnswerRelevancyMetric"
+  ],
+  "dataset_path": "evaluation/deep_eval/test_dataset.json"
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-06-30T13:10:45.314107",
+  "test_case_file": "evaluation/test_cases/sample_test_cases.json",
+  "k": 5,
+  "num_test_cases": 5,
+  "scores": {
+    "hit_rate": 0.0,
+    "mrr": 0.0,
+    "precision@k": 0.0,
+    "recall@k": 0.0,
+    "ndcg@k": 0.0
+  }
+}

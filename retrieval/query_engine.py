@@ -1,8 +1,8 @@
 import logging
 from typing import List, Dict, Any, Optional
-from ingestion.retrieval.retriever import Retriever
+from retrieval.retriever import Retriever
 from ingestion.embedding.embedder import Embedder
-from ingestion.retrieval.query_rewriter import QueryRewriter
+from retrieval.query_rewriter import QueryRewriter
 from sentence_transformers import CrossEncoder
 
 logger = logging.getLogger(__name__)

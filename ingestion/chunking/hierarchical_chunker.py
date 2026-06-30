@@ -92,6 +92,7 @@ class HierarchicalChunker:
 
         metadata = {
             "source_file": Path(file_path).name,
+            "page_number": section_elements[0].page_number if section_elements else None,
             "page_numbers": list({el.page_number for el in section_elements if el.page_number}),
             "section_path": section_elements[0].section_path if section_elements else [],
             "element_type": "section",
@@ -112,6 +113,7 @@ class HierarchicalChunker:
 
         metadata = {
             "source_file": Path(file_path).name,
+            "page_number": element.page_number,
             "page_numbers": [element.page_number] if element.page_number else [],
             "section_path": element.section_path,
             "element_type": element.content_type,
